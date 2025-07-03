@@ -1,0 +1,772 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TCC-CRM.master.cs" Inherits="TCC_CRM.MasterTemplate.TCC_CRM" %>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-25.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../MasterTemplate/css/icons/themify-icons/themify-icons.css">
+    <title>EzyTrackIT-Service Desk | Portal</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/plugins/footable/css/footable.bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/plugins/wizard/steps.css" rel="stylesheet">
+    <link href="../assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet" />
+    <link href="../assets/plugins/select2/dist/css/select2.min.css" rel="stylesheet" type="text/css" />
+    <!-- chartist CSS -->
+    <link href="../assets/plugins/chartist-js/dist/chartist.min.css" rel="stylesheet">
+    <link href="../assets/plugins/chartist-js/dist/chartist-init.css" rel="stylesheet">
+    <link href="../assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css" rel="stylesheet">
+    <link href="../assets/plugins/css-chart/css-chart.css" rel="stylesheet">
+    <link href="../assets/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+    <link href="../assets/plugins/dropify/dist/css/dropify.css" rel="stylesheet" />
+    <link href="../assets/plugins/icheck/skins/all.css" rel="stylesheet">
+    <!--This page css - Morris CSS -->
+    <link href="../assets/plugins/c3-master/c3.min.css" rel="stylesheet">
+    <!-- Vector CSS -->
+    <link href="../assets/plugins/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="../MasterTemplate/css/style.css" rel="stylesheet">
+    <!-- You can change the theme colors from here -->
+    <link href="../css/loading.css" rel="stylesheet">
+    <link href="../MasterTemplate/css/colors/blue.css" id="theme" rel="stylesheet">
+    		<link rel="stylesheet" href="../assets/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" />
+    <style>
+        .left-sidebar {
+            position: fixed;
+            width: 100%;
+            top: 0px;
+            z-index: 0;
+            padding: 5px 15px 0px;
+            background: #fff;
+            -webkit-box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+            box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .topbar, .card-header {
+            background: #0f52ba !important;
+        }
+
+        .left-sidebar {
+            background: #0f52ba;
+        }
+
+        .table td {
+            padding: 0px !important;
+            vertical-align: middle !important;
+        }
+
+        .table td, .table th {
+            padding: .75rem !important;
+            vertical-align: top !important;
+            border: none;
+            border-top: 1px solid #dee2e6 !important;
+        }
+
+        .table {
+            border: none;
+        }
+
+        #sidebarnav {
+            background: #0f52ba;
+        }
+
+        body {
+            color: black;
+        }
+
+        .sidebar-nav ul li a {
+            color: #fff;
+        }
+
+        .sidebar-nav > ul > li > a i {
+            color: #fff;
+        }
+
+        .sidebar-nav > ul > li > a.active {
+            font-weight: 400;
+            background: #ffffff;
+            color: #1979c3;
+        }
+
+        @media all and (min-width:0px) and (max-width: 740px) {
+            .sidebar-nav #sidebarnav > li > ul {
+                /*position: absolute;*/
+                z-index: 1001;
+                width: 260px;
+                background: #0f52ba;
+                /*display: none;*/
+                -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.09);
+                box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.09);
+                border: 1px solid #fff;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+        }
+
+
+        .sidebar-nav #sidebarnav > li > ul {
+            /*position: absolute;*/
+            z-index: 1001;
+            width: 260px;
+            background: #0f52ba;
+            /*display: none;*/
+            -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.09);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.09);
+            /*border: 1px solid #fff;*/
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+
+
+        .sidebar-nav ul li a.active {
+            /*color: #0f52ba;*/
+            background: #f89101;
+            color: #fff;
+        }
+
+        .sidebar-nav > ul > li.active > a, .sidebar-nav > ul > li.active:hover > a {
+            /*color:  #f89101;
+            background:#0f52ba;*/
+            background: #f89101;
+            color: #fff;
+        }
+
+            .sidebar-nav > ul > li.active > a i {
+                /*color:  #f89101;
+                background:#0f52ba;*/
+                background: #f89101;
+                color: #fff;
+            }
+
+        .sidebar-nav > ul > li > a > i.active {
+            /*color:  #f89101;*/
+            background: #f89101;
+            color: #fff;
+        }
+
+        .sidebar-nav ul li ul li a:hover {
+            /*color:  #f89101;*/
+            background: #f89101;
+            color: #fff;
+        }
+
+        .sidebar-nav > ul > li:hover > a, .sidebar-nav > ul > li:hover > a i {
+            /*color:  #f89101;*/
+            background-color: #f89101;
+            color: #fff;
+        }
+
+        .card-no-border .sidebar-nav > ul > li > a.active {
+            /*background:#0f52ba;
+            color:  #f89101;*/
+            background: #f89101;
+            color: #fff;
+        }
+
+        .sidebar-nav > ul > li > a.active i, .sidebar-nav > ul > li > a:hover i {
+            /*color:  #f89101;*/
+            background-color: #f89101;
+            color: #fff;
+        }
+
+        .topbar ul.dropdown-user li:hover a {
+            /*color:  #f89101;*/
+            background-color: #f89101;
+            color: #fff;
+        }
+
+        .text-muted {
+            color: #0f52ba !important;
+        }
+
+        .card-header {
+            padding: .75rem 1.25rem;
+            margin-bottom: 0;
+            background-color: #0f52ba;
+            border-bottom: 1px solid rgba(0,0,0,.125);
+        }
+
+        .datepicker table tr td.active.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled.disabled, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active.disabled:hover.active, .datepicker table tr td.active.disabled:hover.disabled, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.disabled:hover:hover, .datepicker table tr td.active.disabled:hover[disabled], .datepicker table tr td.active.disabled[disabled], .datepicker table tr td.active:active, .datepicker table tr td.active:hover, .datepicker table tr td.active:hover.active, .datepicker table tr td.active:hover.disabled, .datepicker table tr td.active:hover:active, .datepicker table tr td.active:hover:hover, .datepicker table tr td.active:hover[disabled], .datepicker table tr td.active[disabled] {
+            background-color: #0f52ba;
+        }
+
+        .btn-outline-success, .dt-button {
+            color: #fff;
+            background-color: #0f52ba;
+            border-color: #0f52ba;
+            -webkit-box-shadow: 0 2px 2px 0 rgba(40, 190, 189, 0.14), 0 3px 1px -2px rgba(40, 190, 189, 0.2), 0 1px 5px 0 rgba(40, 190, 189, 0.12);
+            box-shadow: 0 2px 2px 0 rgba(40, 190, 189, 0.14), 0 3px 1px -2px rgba(40, 190, 189, 0.2), 0 1px 5px 0 rgba(40, 190, 189, 0.12);
+            -webkit-transition: 0.2s ease-in;
+            -o-transition: 0.2s ease-in;
+            transition: 0.2s ease-in;
+        }
+
+        .dt-buttons .dt-button:hover {
+            color: #f89101;
+            background-color: #0f52ba;
+            border-color: #0f52ba;
+        }
+
+        .btn-outline-success:hover {
+            color: #f89101;
+            background-color: #0f52ba;
+            border-color: #0f52ba;
+        }
+
+        .btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show > .btn-outline-success.dropdown-toggle {
+            color: #0f52ba;
+            background-color: #0f52ba;
+            border-color: #0f52ba;
+        }
+
+        .dt-buttons .dt-button {
+            padding: 5px 15px;
+            border-radius: 4px;
+            background: #0f52ba;
+            color: #ffffff;
+            margin-right: 3px;
+        }
+
+        select.decorated option:hover {
+            box-shadow: 0 0 10px 100px #1882A8 inset;
+        }
+
+        .dataTables_filter input {
+            border: 0;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#73bfa9), to(#73bfa9)), -webkit-gradient(linear, left top, left bottom, from(#d9d9d9), to(#d9d9d9));
+            background-image: -webkit-linear-gradient(#73bfa9,#0f52ba), -webkit-linear-gradient(#d9d9d9, #d9d9d9);
+            background-image: -o-linear-gradient(#73bfa9,#0f52ba), -o-linear-gradient(#d9d9d9, #d9d9d9);
+            background-image: linear-gradient(#73bfa9,#0f52ba), linear-gradient(#d9d9d9, #d9d9d9);
+            background-size: 0 2px, 100% 1px;
+            background-repeat: no-repeat;
+            background-position: center bottom, center calc(100% - 1px);
+            background-color: transparent;
+            -webkit-transition: background 0s ease-out;
+            -o-transition: background 0s ease-out;
+            transition: background 0s ease-out;
+            float: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            border-radius: 0;
+            margin-left: 10px;
+        }
+
+        .content {
+            max-width: 98%;
+            height: 200px;
+            background: #fdfdfd;
+            margin: 0px auto;
+            position: relative;
+            /*top: 40px;*/
+            border: 1px solid #aaaaaa;
+        }
+
+            .content .content-header {
+                width: 100%;
+                height: 40px;
+                background-color: #aaa;
+                background-image: -moz-linear-gradient(top,#eeeeee,#cccccc);
+                background-image: -webkit-gradient(linear,0 0,0 100%,from(#eeeeee),to(#cccccc));
+                background-image: -webkit-linear-gradient(top,#eeeeee,#cccccc);
+                background-image: -o-linear-gradient(top,#eeeeee,#cccccc);
+                background-image: linear-gradient(to bottom,#eeeeee,#cccccc);
+                border-bottom: 1px solid #aaaaaa;
+            }
+
+        .content-loader {
+            overflow: scroll;
+        }
+
+            .content-loader table {
+                width: auto;
+                background: #aaa;
+            }
+
+                .content-loader table tr {
+                    background: #eee;
+                }
+
+                    .content-loader table tr td {
+                    }
+
+            .content-loader tr td {
+                white-space: nowrap;
+            }
+
+        option {
+            color: #0f52ba;
+            background: #fff;
+        }
+
+        #rows {
+            margin-left: 15px;
+        }
+
+        .select2-container--default .select2-results__option--highlighted[aria-selected] {
+            background-color: #0f52ba;
+            color: white;
+        }
+
+        .select2-container {
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 0;
+            position: relative;
+            vertical-align: middle;
+            width: 244px !important;
+        }
+    </style>
+
+    <script type="text/javascript">
+
+        function SetTarget() {
+
+            document.forms[0].target = "_blank";
+
+        }
+
+    </script>
+    <script type="text/javascript"> function successalert(test)
+ { swal({ title: test, type: 'success' }); }
+
+    </script>
+</head>
+
+
+<body class="fix-header fix-sidebar card-no-border logo-center">
+    <form id="Form1" runat="server">
+        <!-- ============================================================== -->
+        <!-- Preloader - style you can find in spinners.css -->
+        <!-- ============================================================== -->
+        <%--<div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+    </div>--%>
+        <!-- ============================================================== -->
+        <!-- Main wrapper - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <div id="main-wrapper">
+            <!-- ============================================================== -->
+            <!-- Topbar header - style you can find in pages.scss -->
+            <!-- ============================================================== -->
+            <header class="topbar">
+                <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">
+                            <!-- Logo icon -->
+                            <b>
+                                <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                                <!-- Dark Logo icon -->
+                                <img src="../assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                                <!-- Light Logo icon -->
+                                <img src="../assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                            </b>
+                            <!--End Logo icon -->
+                            <!-- Logo text -->
+                            <span>
+                                <!-- dark Logo text -->
+                                <img src="../assets/images/logo-text.png" alt="homepage" class="dark-logo" />
+                                <!-- Light Logo text -->
+                                <img src="../assets/images/logo-light-text.png" class="light-logo" alt="homepage" /></span> </a>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <div class="navbar-collapse">
+                        <!-- ============================================================== -->
+                        <!-- toggle and nav items -->
+                        <!-- ============================================================== -->
+                        <ul class="navbar-nav mr-auto mt-md-0">
+                            <!-- This is  -->
+                            <li class="nav-item"><a class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="fa fa-bars" style="color: black"></i></a></li>
+                            <li class="nav-item dropdown mega-dropdown"><a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="mdi mdi-view-grid"></i></a>
+
+                            </li>
+                            <!-- ============================================================== -->
+                            <!-- End Messages -->
+                            <!-- ============================================================== -->
+                        </ul>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                        <ul class="navbar-nav my-lg-0">
+                            <!-- ============================================================== -->
+                            <!-- Comment -->
+                            <!-- ============================================================== -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-muted text-muted waves-effect waves-dark" href="../Home.aspx" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="mdi mdi-message"></i>
+                                    <div class="notify"><span class="heartbit"></span><span class="point"></span></div>
+                                </a>
+
+                            </li>
+                            <!-- ============================================================== -->
+                            <!-- End Comment -->
+                            <!-- ============================================================== -->
+
+                            <!-- ============================================================== -->
+                            <!-- Profile -->
+                            <!-- ============================================================== -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   <%-- <img src="../assets/images/users/1.jpg" alt="user" class="profile-pic" style="margin-top:-10px"/>--%>
+                                    <div id="smallProfile" runat="server"></div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right scale-up">
+                                    <ul class="dropdown-user">
+                                        <li>
+                                            <asp:Label ID="lbluser" runat="server" Style="padding: 9px 15px; display: block; color: #99abb4;"></asp:Label></li>
+                                        <li>
+
+                                            <div class="dw-user-box">
+                                                <div class="u-img">
+                                                  <%--  <img src="../assets/images/users/1.jpg" alt="user">--%>
+                                                    <div id="profiles" runat="server"></div>
+                                                </div>
+
+                                            </div>
+                                        </li>
+
+                                        <li><a href="../Logout.aspx"><i class="fa fa-power-off"></i>Logout</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+                <aside class="left-sidebar">
+                    <!-- Sidebar scroll-->
+                    <div class="scroll-sidebar">
+                        <!-- Sidebar navigation-->
+                        <nav class="sidebar-nav">
+                            <ul id="sidebarnav">
+                                <li class="nav-small-cap">PERSONAL</li>
+                                <li style="background: #0f52ba; margin-top: -6px; margin-left: -34px">
+                                    <a class="has-arrow" href="../Transactions/TicketList.aspx" aria-expanded="false"
+                                        style="background: #0f52ba;">
+                                        <div id="companyimg" runat="server"></div>
+                                        <%--<div id="homediv" runat="server"></div>--%>
+                                    </a>
+                                    <%--  <img src="../images/tcchome.png" style="width: 90px; height: 45px" /></a>--%>
+
+                                </li>
+
+                                <li id="transaction" runat="server">
+                                    <a class="has-arrow" href="../Transactions/TicketList.aspx" aria-expanded="false"><i class="fa fa-tasks"></i><span class="hide-menu">Jobs</span></a>
+
+                                </li>
+                                <li id="tracking" runat="server">
+                                    <a class="has-arrow" href="../Transactions/Tracking.aspx" aria-expanded="false"><i class="fa fa-map-marker"></i><span class="hide-menu">Tracking </span></a>
+
+                                </li>
+                              <%--  <li id="Li2" runat="server">
+                                    <a class="has-arrow" href="../Transactions/TrackingMultipleLocation.aspx" aria-expanded="false"><i class="fa fa-map-marker"></i><span class="hide-menu">Multiple Tracking </span></a>
+
+                                </li>--%>
+                                <li id="attendance" runat="server">
+                                    <a class="has-arrow" href="../Transactions/Attendance.aspx" aria-expanded="false"><i class="fa fa-ticket"></i><span class="hide-menu">Attendance </span></a>
+
+                                </li>
+                                <li id="dashboard" runat="server">
+                                    <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Dashboard </span></a>
+                                    <ul aria-expanded="false" class="collapse">
+                                        <li><a href="../Transactions/Dashboard.aspx"><i class="fa fa-ticket"></i><span>&nbsp;</span>Product Analysis</a></li>
+                                        <li><a href="../Transactions/CustomerDashboard.aspx"><i class="fa fa-ticket"></i><span>&nbsp;</span>Customer Analysis</a></li>
+                                        <li><a href="../Transactions/EngineerDashboard.aspx"><i class="fa fa-ticket"></i><span>&nbsp;</span>Engineer Analysis</a></li>
+                                    
+                                        <li><a href="../Transactions/Milestone.aspx"><i class="fa fa-line-chart"></i><span>&nbsp;</span>Engineer Milestone </a></li>
+                                    </ul>
+
+                                </li>
+
+                                <li id="report" runat="server">
+                                    <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-pie-chart"></i><span class="hide-menu">Report </span></a>
+                                    <ul aria-expanded="false" class="collapse">                                    
+                                        <li><a href="../Transactions/TimeAnalysis.aspx"><i class="fa fa-calendar"></i><span>&nbsp;</span>Time Analysis </a></li>
+                                         <%--<li><a href="../Transactions/BranchWiseReport.aspx"><i class="fa fa-calendar"></i><span>&nbsp;</span>Branch Wise Time Analysis </a></li>--%>
+                                    </ul>
+
+                                </li>
+
+                                  <li id="Li1" runat="server" visible="false">
+                                    <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Reports</span></a>
+                                    <ul aria-expanded="false" class="collapse">
+                                        <li><a href="#"><i class="fa fa-ticket"></i><span>&nbsp;</span>Time & Cost Analysis</a></li>
+                                       
+                                    </ul>
+
+                                </li>
+                                <%--<li id="" runat="server">
+                                    <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-money"></i><span class="hide-menu">Transaction</span></a>
+                                    <ul aria-expanded="false" class="collapse">
+                                        <li><a ><i class="fa fa-ticket"></i><span>&nbsp;</span>Tickets</a></li>
+                                    </ul>
+
+                                </li>--%>
+                               
+                                <li id="Masters" runat="server">
+                                    <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-wrench"></i><span class="hide-menu">Masters</span></a>
+                                    <ul aria-expanded="false" class="collapse">
+                                        <li><a href="../Masters/Company.aspx"><i class="fa fa-building-o"></i><span>&nbsp;</span> Company </a></li>
+                                        <li><a href="../Masters/ProductList.aspx"><i class="fa fa-product-hunt"></i><span>&nbsp;</span>Product</a></li>
+                                        <li><a href="../Masters/BrandList.aspx"><i class="fa fa-eercast"></i><span>&nbsp;</span> Brands</a></li>
+                                        <li><a href="../Masters/ModelList.aspx"><i class="fa fa-ravelry"></i><span>&nbsp;</span> Models</a></li>
+                                        <li><a href="../Masters/EngineersList.aspx"><i class="fa fa-user-circle"></i><span>&nbsp;</span> Engineers</a></li>
+                                        <li><a href="../Masters/CustomerList.aspx"><i class="fa fa-map-marker"></i><span>&nbsp;</span> Customers</a></li>
+                                        <li><a href="../Masters/CustomerBranchList.aspx"><i class="fa fa-bandcamp"></i><span>&nbsp;</span> Customer Branch</a></li>
+                                        <li><a href="../Masters/UserList.aspx"><i class="fa fa-compass"></i><span>&nbsp;</span>User</a></li>
+                                        <li><a href="../Masters/JobType.aspx"><i class="fa fa-black-tie "></i><span>&nbsp;</span>Job Type</a></li>
+
+
+                                    </ul>
+                                </li>
+
+                                 <li id="settings" runat="server">
+                                    <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-wrench"></i><span class="hide-menu">Settings</span></a>
+                                    <ul aria-expanded="false" class="collapse">
+
+                                        <li><a href="../Masters/ServiceTypeList.aspx"><i class="fa fa-eercast"></i><span>&nbsp;</span> Service Type</a></li>
+                                        <li><a href="../Masters/ProblemList.aspx"><i class="fa fa-bandcamp"></i><span>&nbsp;</span> Problems</a></li>
+                                        <li><a href="../Masters/SkillList.aspx"><i class="fa fa-bandcamp"></i><span>&nbsp;</span> Skill</a></li>
+                                        <li><a href="../Masters/EngineerSkillLevel.aspx"><i class="fa fa-bandcamp"></i><span>&nbsp;</span>Skill Level</a></li>
+                                        <li><a href="../Masters/Severity.aspx"><i class="fa fa-bandcamp"></i><span>&nbsp;</span>Severity</a></li>
+                                        <li><a href="../Masters/Priority.aspx"><i class="fa fa-bandcamp"></i><span>&nbsp;</span>Priority</a></li>
+                                        <li><a href="../Masters/StatusList.aspx"><i class="fa fa-compass"></i><span>&nbsp;</span>Status</a></li>
+
+
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <label>&nbsp;</label>
+                                </li>
+
+
+                                <%--  <label style="color:white" id="homelbl"></label></li>--%>
+                                <!--Inventix-Service Desk Version 1.0-->
+
+
+                                <li>
+                                    <label id="NexusVersion" runat="server" style="color: #0f52ba"></label>
+                                    <asp:HiddenField ID="hiddenip" runat="server" />
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- End Sidebar navigation -->
+                    </div>
+                    <!-- End Sidebar scroll-->
+                </aside>
+            </header>
+            <br />
+            <!-- ============================================================== -->
+            <!-- End Topbar header -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Left Sidebar - style you can find in sidebar.scss  -->
+            <!-- ============================================================== -->
+
+            <div class="page-wrapper" style="padding-top: 0px;">
+                <%--                        <div class="breadcrumb">
+                                        <div class="item"><a href="../Home.aspx">Nexus / </a></div>
+                                    </div>--%>
+
+                <div class="sk-cube-grid" id="loaderdiv">
+                    <div class="sk-cube sk-cube1"></div>
+                    <div class="sk-cube sk-cube2"></div>
+                    <div class="sk-cube sk-cube3"></div>
+                    <div class="sk-cube sk-cube4"></div>
+                    <div class="sk-cube sk-cube5"></div>
+                    <div class="sk-cube sk-cube6"></div>
+                    <div class="sk-cube sk-cube7"></div>
+                    <div class="sk-cube sk-cube8"></div>
+                    <div class="sk-cube sk-cube9"></div>
+                </div>
+                <div class="row" style="display: none" id="rows">
+                    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <footer class="footer" style="color: #0f52ba; text-align: left">
+                <b>Inventix-Service Desk Version 1.0  © 2019 </b>
+                <img src="../Images/perituslogo.jpg" style="float: right; width: 150px; height: 39px;" />
+            </footer>
+        </div>
+        <%--<script type = "text/javascript" src = "http://cdn.jsdelivr.net/jquery.cookie/1.3.1/jquery.cookie.js"></script>--%>
+
+        <script type="text/javascript">
+            $(function () {
+
+                $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
+    function (json) {
+        //$("#MachineIP").text(json.ip);
+
+        document.getElementById('<%=hiddenip.ClientID%>').value = json.ip;
+    }
+    );
+              <%--  var sessionuserid = '<%= Session["TokenNo"] %>';
+              
+                if (sessionuserid > 0)
+                { }
+                else
+                {
+                    SWAL("Session Expired.Login to Contine..");
+                    window.location.href="../Login.aspx"
+                }--%>
+                //if ($.cookie("cbc") != null) {
+                //    $('.breadcrumb').html($.cookie("cbc"));
+                //}
+                //alert($.cookie("cbc"));
+                window.history.pushState(null, "", window.location.href);
+                window.onpopstate = function () {
+                    //sessionStorage.clear();
+                    alert("This function is not allowed..!!")
+                    window.history.pushState(null, "", window.location.href);
+                    return;
+                };
+
+                $(this).bind("contextmenu", function (e) {
+                    e.preventDefault();
+                    alert("This function is not allowed..!!")
+                });
+                //$(this).bind("mousewheel", function (ex) {
+                //    if (ex.which == 2) {
+                //        ex.preventDefault();
+                //        alert("This function is not allowed..!!")
+                //        return false;
+                //    }
+                //});
+                $(this).mousedown(function (b) {
+                    if (b.which == 2) {
+                        alert("This function is not allowed..!!")
+                        b.preventDefault();
+                        //        alert("This function is not allowed..!!")
+                    }
+                });
+
+                setTimeout(function () {
+                    $('#loaderdiv').hide();
+                    $('#rows').show();
+                }, 1000);
+                $(document).ajaxStart(function (event, xhr, settings) {
+                    $('#loaderdiv').show();
+                    $('#rows').hide();
+                });
+                $(document).ajaxStop(function (event, xhr, settings) {
+                    //setTimeout(function () {
+                    //    $('#loaderdiv').hide();
+                    //    $('#rows').show();
+                    //}, 2000);
+                    $('#loaderdiv').hide();
+                    $('#rows').show();
+                });
+
+                //$('.scroll-sidebar a').on('click', function () {
+                //    var $this = $(this),
+                //        $bc = $('<div class="item"></div>');
+
+                //    $this.parents('li').each(function (n, li) {
+                //        var $a = $(li).children('a').clone();
+                //        $bc.prepend(' / ', $a);
+                //    });
+
+                //    $('.breadcrumb').html($bc.prepend('<a href="../Home.aspx">Nexus</a>'));
+                //    var cbcval = $('.breadcrumb').text();
+                //    $.cookie("cbc", $('.breadcrumb').text());
+                //    //return false;
+                //});
+
+            });
+        </script>
+        <!-- ============================================================== -->
+        <!-- End Wrapper -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- All Jquery -->
+        <!-- ============================================================== -->
+
+        <!-- Bootstrap tether Core JavaScript -->
+        <script src="../assets/plugins/jquery/jquery.min.js"></script>
+        <script src="../assets/plugins/popper/popper.min.js"></script>
+        <script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+        <!-- slimscrollbar scrollbar JavaScript -->
+        <script src="../MasterTemplate/js/jquery.slimscroll.js"></script>
+        <!--Wave Effects -->
+        <script src="../MasterTemplate/js/waves.js"></script>
+        <!--Menu sidebar -->
+        <script src="../MasterTemplate/js/sidebarmenu.js"></script>
+        <!--stickey kit -->
+        <script src="../assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+        <script src="../assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+        <!--stickey kit -->
+        <script src="../assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+        <script src="../assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+        <script src="../assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+        <!--Custom JavaScript -->
+        <script src="../MasterTemplate//js/custom.min.js"></script>
+        <script src="../assets/plugins/moment/min/moment.min.js"></script>
+        <script src="../assets/plugins/wizard/jquery.steps.min.js"></script>
+        <script src="../assets/plugins/wizard/jquery.validate.min.js"></script>
+        <script src="../assets/plugins/footable/js/footable.min.js"></script>
+        <script src="js/footable-init.js"></script>
+        <!-- ============================================================== -->
+        <!-- This page plugins -->
+        <!-- ============================================================== -->
+        <!-- chartist chart -->
+        <script src="../assets/plugins/datatables/jquery.dataTables.min.js"></script>
+        <!--   <script src="../js/jquery.dataTables.min.js"></script>-->
+        <!-- ============================================================== -->
+        <!-- start - This is for export functionality only -->
+        <script src="../js/dataTables.buttons.min.js"></script>
+        <script src="../js/buttons.flash.min.js"></script>
+        <script src="../js/jszip.min.js"></script>
+        <script src="../js/pdfmake.min.js"></script>
+        <script src="../js/vfs_fonts.js"></script>
+        <script src="../js/buttons.html5.min.js"></script>
+        <script src="../js/buttons.print.min.js"></script>
+        <script src="../assets/plugins/chartist-js/dist/chartist.min.js"></script>
+        <script src="../assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script>
+        <!--c3 JavaScript -->
+        <script src="../assets/plugins/d3/d3.min.js"></script>
+        <script src="../assets/plugins/c3-master/c3.min.js"></script>
+        <!-- Vector map JavaScript -->
+        <script src="../assets/plugins/vectormap/jquery-jvectormap-2.0.2.min.js"></script>
+        <script src="../assets/plugins/vectormap/jquery-jvectormap-us-aea-en.js"></script>
+        <%--  <script src="../assets/plugins/vectormap/jquery-jvectormap-in-en.js"></script>--%>
+        <script src="../js/dashboard2.js"></script>
+        <script src="../assets/plugins/select2/dist/js/select2.full.min.js" type="text/javascript"></script>
+        <script src="../assets/plugins/dropify/dist/js/dropify.js"></script>
+        <!-- icheck -->
+        <script src="../assets/plugins/icheck/icheck.min.js"></script>
+        <script src="../assets/plugins/icheck/icheck.init.js"></script>
+        <!-- ============================================================== -->
+        <!-- Style switcher -->
+        <!-- ============================================================== -->
+        <script src="../assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+        <script src="../assets/plugins/sweetalert/sweetalert.min.js" type="text/javascript"></script>
+        <script src="../assets/plugins/sweetalert/jquery.sweet-alert.custom.js" type="text/javascript"></script>
+        <script src="../assets/plugins/sweetalert/sweetalert.js"></script>
+        <script src="../js/jquery.PrintArea.js" type="text/JavaScript"></script>
+        <script type="text/javascript" src="../assets/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+    </form>
+</body>
+
+</html>

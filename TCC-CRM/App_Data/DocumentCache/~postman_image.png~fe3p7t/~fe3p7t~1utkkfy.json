@@ -1,0 +1,27 @@
+{
+  "CacheSourceKey": "fe3p7t",
+  "CachePdfKey": "fe3p7t/fe3p7t-1nrwo2i.pdf",
+  "CacheXpzKey": "fe3p7t/fe3p7t-1utkkfy.xpz",
+  "CacheInfoKey": "fe3p7t/fe3p7t-1utkkfy.json",
+  "CacheCopyKey": null,
+  "Document": "E:\\2019 WorkSpace\\SVN\\PeritusSVNServer\\TCC\\TCC-TrackIT\\trunk\\TCC-CRM\\Transactions\\UploadDocuments\\TicketUploads\\postman_image.png",
+  "DocumentHandlerType": null,
+  "DocumentHandlerParameters": null,
+  "DocumentLocation": null,
+  "DocumentFileName": "postman_image.png",
+  "InputOptions": {
+    "Format": "Png",
+    "Password": null
+  },
+  "PdfOutputOptions": {
+    "Watermarks": [],
+    "FastWebViewEnabled": false,
+    "Password": null,
+    "Format": "Pdf"
+  },
+  "XpzOutputOptions": {
+    "Password": "fe3p7t",
+    "HighQualityEnabled": false,
+    "Format": "Xpz"
+  }
+}

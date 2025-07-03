@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{819836D4-0287-4A26-8352-ED5423723076}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRM.Artifacts</RootNamespace>
+    <AssemblyName>CRM.Artifacts</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BECommom.cs" />
+    <Compile Include="CRMAbstract.cs" />
+    <Compile Include="Masters\BEBrand.cs" />
+    <Compile Include="Masters\BECompany.cs" />
+    <Compile Include="Masters\BECustomer.cs" />
+    <Compile Include="Masters\BECustomerBranch.cs" />
+    <Compile Include="Masters\BEEngineer.cs" />
+    <Compile Include="Masters\BEEngineerSkilllevel.cs" />
+    <Compile Include="Masters\BEJobType.cs" />
+    <Compile Include="Masters\BELatLng.cs" />
+    <Compile Include="Masters\BEmarkersOnMap.cs" />
+    <Compile Include="Masters\BEModel.cs" />
+    <Compile Include="Masters\BENotificationTemplate.cs" />
+    <Compile Include="Masters\BEPriority.cs" />
+    <Compile Include="Masters\BEProblem.cs" />
+    <Compile Include="Masters\BEProduct.cs" />
+    <Compile Include="Masters\BEServiceType.cs" />
+    <Compile Include="Masters\BESeverity.cs" />
+    <Compile Include="Masters\BESkill.cs" />
+    <Compile Include="Masters\BEStatus.cs" />
+    <Compile Include="Masters\BETicket.cs" />
+    <Compile Include="Masters\BETicketDocument.cs" />
+    <Compile Include="Masters\BETicketPartDetails.cs" />
+    <Compile Include="Masters\BETicketStatus.cs" />
+    <Compile Include="Masters\BEUser.cs" />
+    <Compile Include="Masters\BEVehicle.cs" />
+    <Compile Include="Masters\PushNotificationToken.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\BEUserAccess.cs" />
+    <Compile Include="Security\BEUsers.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

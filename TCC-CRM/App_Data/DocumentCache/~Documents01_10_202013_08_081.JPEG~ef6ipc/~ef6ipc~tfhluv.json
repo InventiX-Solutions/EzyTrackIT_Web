@@ -1,0 +1,27 @@
+{
+  "CacheSourceKey": "ef6ipc",
+  "CachePdfKey": "ef6ipc/ef6ipc-md9rl0.pdf",
+  "CacheXpzKey": "ef6ipc/ef6ipc-tfhluv.xpz",
+  "CacheInfoKey": "ef6ipc/ef6ipc-tfhluv.json",
+  "CacheCopyKey": null,
+  "Document": "D:\\Elavarasan\\Web\\ServiceDeskWeb\\ServiceDesk\\trunk\\TCC-CRM\\Transactions\\UploadDocuments\\TicketUploads\\Documents01_10_202013_08_081.JPEG",
+  "DocumentHandlerType": null,
+  "DocumentHandlerParameters": null,
+  "DocumentLocation": null,
+  "DocumentFileName": "Documents01_10_202013_08_081.JPEG",
+  "InputOptions": {
+    "Format": "Jpg",
+    "Password": null
+  },
+  "PdfOutputOptions": {
+    "Watermarks": [],
+    "FastWebViewEnabled": false,
+    "Password": null,
+    "Format": "Pdf"
+  },
+  "XpzOutputOptions": {
+    "Password": "ef6ipc",
+    "HighQualityEnabled": false,
+    "Format": "Xpz"
+  }
+}

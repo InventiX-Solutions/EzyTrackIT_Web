@@ -1,0 +1,18 @@
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Artifacts\bin\Release\CRM.Artifacts.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Artifacts\bin\Release\CRM.Artifacts.pdb
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Artifacts\obj\Release\CRM.Artifacts.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Artifacts\obj\Release\CRM.Artifacts.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Artifacts\bin\Release\CRM.Artifacts.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Artifacts\bin\Release\CRM.Artifacts.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Artifacts\obj\Release\CRM.Artifacts.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Artifacts\obj\Release\CRM.Artifacts.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Artifacts\bin\Release\CRM.Artifacts.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Artifacts\bin\Release\CRM.Artifacts.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Artifacts\obj\Release\CRM.Artifacts.csprojResolveAssemblyReference.cache
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Artifacts\obj\Release\CRM.Artifacts.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Artifacts\obj\Release\CRM.Artifacts.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Artifacts\bin\Release\CRM.Artifacts.dll
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Artifacts\bin\Release\CRM.Artifacts.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Artifacts\obj\Release\CRM.Artifacts.dll
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Artifacts\obj\Release\CRM.Artifacts.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Artifacts\obj\Release\CRM.Artifacts.csprojResolveAssemblyReference.cache

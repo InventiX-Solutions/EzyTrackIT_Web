@@ -1,0 +1,136 @@
+c:\Users\Admin\documents\visual studio 2012\Projects\TCC-CRM\CRM.Bussiness\bin\Debug\CRM.Bussiness.dll
+c:\Users\Admin\documents\visual studio 2012\Projects\TCC-CRM\CRM.Bussiness\bin\Debug\CRM.Bussiness.pdb
+c:\Users\Admin\documents\visual studio 2012\Projects\TCC-CRM\CRM.Bussiness\bin\Debug\Base.Data.dll
+c:\Users\Admin\documents\visual studio 2012\Projects\TCC-CRM\CRM.Bussiness\bin\Debug\CRM.Artifacts.dll
+c:\Users\Admin\documents\visual studio 2012\Projects\TCC-CRM\CRM.Bussiness\bin\Debug\CRM.Data.dll
+c:\Users\Admin\documents\visual studio 2012\Projects\TCC-CRM\CRM.Bussiness\bin\Debug\Base.Data.pdb
+c:\Users\Admin\documents\visual studio 2012\Projects\TCC-CRM\CRM.Bussiness\bin\Debug\CRM.Artifacts.pdb
+c:\Users\Admin\documents\visual studio 2012\Projects\TCC-CRM\CRM.Bussiness\bin\Debug\CRM.Data.pdb
+c:\Users\Admin\documents\visual studio 2012\Projects\TCC-CRM\CRM.Bussiness\obj\Debug\CRM.Bussiness.csprojResolveAssemblyReference.cache
+c:\Users\Admin\documents\visual studio 2012\Projects\TCC-CRM\CRM.Bussiness\obj\Debug\CRM.Bussiness.dll
+c:\Users\Admin\documents\visual studio 2012\Projects\TCC-CRM\CRM.Bussiness\obj\Debug\CRM.Bussiness.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\TCC-TrackIT\CRM.Bussiness\bin\Debug\CRM.Bussiness.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\TCC-TrackIT\CRM.Bussiness\bin\Debug\CRM.Bussiness.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\TCC-TrackIT\CRM.Bussiness\bin\Debug\Base.Data.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\TCC-TrackIT\CRM.Bussiness\bin\Debug\CRM.Artifacts.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\TCC-TrackIT\CRM.Bussiness\bin\Debug\CRM.Data.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\TCC-TrackIT\CRM.Bussiness\bin\Debug\Base.Data.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\TCC-TrackIT\CRM.Bussiness\bin\Debug\CRM.Artifacts.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\TCC-TrackIT\CRM.Bussiness\bin\Debug\CRM.Data.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\TCC-TrackIT\CRM.Bussiness\obj\Debug\CRM.Bussiness.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\TCC-TrackIT\CRM.Bussiness\obj\Debug\CRM.Bussiness.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\TCC-TrackIT\CRM.Bussiness\obj\Debug\CRM.Bussiness.pdb
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC-TrackIT\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.csprojResolveAssemblyReference.cache
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC-TrackIT\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.dll
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Bussiness.dll
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Bussiness.pdb
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\Base.Data.dll
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Artifacts.dll
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Data.dll
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\Base.Data.pdb
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Artifacts.pdb
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Data.pdb
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC-TrackIT\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.pdb
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Bussiness.dll
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Bussiness.pdb
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\Base.Data.dll
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Artifacts.dll
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Data.dll
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\Base.Data.pdb
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Artifacts.pdb
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Data.pdb
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC\TCC-TrackIT\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.csprojResolveAssemblyReference.cache
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC\TCC-TrackIT\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.dll
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC\TCC-TrackIT\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.pdb
+D:\Dhana\trunk\CRM.Bussiness\bin\Debug\CRM.Bussiness.dll
+D:\Dhana\trunk\CRM.Bussiness\bin\Debug\CRM.Bussiness.pdb
+D:\Dhana\trunk\CRM.Bussiness\bin\Debug\Base.Data.dll
+D:\Dhana\trunk\CRM.Bussiness\bin\Debug\CRM.Artifacts.dll
+D:\Dhana\trunk\CRM.Bussiness\bin\Debug\CRM.Data.dll
+D:\Dhana\trunk\CRM.Bussiness\bin\Debug\Base.Data.pdb
+D:\Dhana\trunk\CRM.Bussiness\bin\Debug\CRM.Artifacts.pdb
+D:\Dhana\trunk\CRM.Bussiness\bin\Debug\CRM.Data.pdb
+D:\Dhana\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.csprojResolveAssemblyReference.cache
+D:\Dhana\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.dll
+D:\Dhana\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.pdb
+E:\Peritus_SVN\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Bussiness.dll
+E:\Peritus_SVN\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Bussiness.pdb
+E:\Peritus_SVN\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\Base.Data.dll
+E:\Peritus_SVN\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Artifacts.dll
+E:\Peritus_SVN\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Data.dll
+E:\Peritus_SVN\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\Base.Data.pdb
+E:\Peritus_SVN\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Artifacts.pdb
+E:\Peritus_SVN\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Data.pdb
+E:\Peritus_SVN\TCC-TrackIT\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.csprojResolveAssemblyReference.cache
+E:\Peritus_SVN\TCC-TrackIT\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.dll
+E:\Peritus_SVN\TCC-TrackIT\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.pdb
+F:\ElaVarasan\TrackIT\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Bussiness.dll
+F:\ElaVarasan\TrackIT\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Bussiness.pdb
+F:\ElaVarasan\TrackIT\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\Base.Data.dll
+F:\ElaVarasan\TrackIT\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Artifacts.dll
+F:\ElaVarasan\TrackIT\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Data.dll
+F:\ElaVarasan\TrackIT\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\Base.Data.pdb
+F:\ElaVarasan\TrackIT\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Artifacts.pdb
+F:\ElaVarasan\TrackIT\TCC-TrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Data.pdb
+F:\ElaVarasan\TrackIT\TCC-TrackIT\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.csprojResolveAssemblyReference.cache
+F:\ElaVarasan\TrackIT\TCC-TrackIT\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.dll
+F:\ElaVarasan\TrackIT\TCC-TrackIT\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\bin\Debug\CRM.Bussiness.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\bin\Debug\CRM.Bussiness.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\bin\Debug\Base.Data.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\bin\Debug\CRM.Artifacts.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\bin\Debug\CRM.Data.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\bin\Debug\Base.Data.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\bin\Debug\CRM.Artifacts.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\bin\Debug\CRM.Data.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.csprojResolveAssemblyReference.cache
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.pdb
+E:\2020 WorkSpace\SVN\EZYTrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Bussiness.dll
+E:\2020 WorkSpace\SVN\EZYTrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Bussiness.pdb
+E:\2020 WorkSpace\SVN\EZYTrackIT\trunk\CRM.Bussiness\bin\Debug\Base.Data.dll
+E:\2020 WorkSpace\SVN\EZYTrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Artifacts.dll
+E:\2020 WorkSpace\SVN\EZYTrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Data.dll
+E:\2020 WorkSpace\SVN\EZYTrackIT\trunk\CRM.Bussiness\bin\Debug\Base.Data.pdb
+E:\2020 WorkSpace\SVN\EZYTrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Artifacts.pdb
+E:\2020 WorkSpace\SVN\EZYTrackIT\trunk\CRM.Bussiness\bin\Debug\CRM.Data.pdb
+E:\2020 WorkSpace\SVN\EZYTrackIT\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.csprojResolveAssemblyReference.cache
+E:\2020 WorkSpace\SVN\EZYTrackIT\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.dll
+E:\2020 WorkSpace\SVN\EZYTrackIT\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Debug\CRM.Bussiness.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Debug\CRM.Bussiness.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Debug\Base.Data.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Debug\CRM.Artifacts.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Debug\CRM.Data.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Debug\Base.Data.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Debug\CRM.Artifacts.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Debug\CRM.Data.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.csprojResolveAssemblyReference.cache
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Debug\CRM.Bussiness.dll
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Debug\CRM.Bussiness.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Debug\Base.Data.dll
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Debug\CRM.Artifacts.dll
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Debug\CRM.Data.dll
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Debug\Base.Data.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Debug\CRM.Artifacts.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Debug\CRM.Data.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.dll
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.csproj.AssemblyReference.cache
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.csproj.CoreCompileInputs.cache
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\obj\Debug\CRM.Bussiness.csproj.CopyComplete
+F:\InventiX-Solutions\EzyTrackIT_Web\CRM.Bussiness\bin\Debug\CRM.Bussiness.dll
+F:\InventiX-Solutions\EzyTrackIT_Web\CRM.Bussiness\bin\Debug\CRM.Bussiness.pdb
+F:\InventiX-Solutions\EzyTrackIT_Web\CRM.Bussiness\bin\Debug\Base.Data.dll
+F:\InventiX-Solutions\EzyTrackIT_Web\CRM.Bussiness\bin\Debug\CRM.Artifacts.dll
+F:\InventiX-Solutions\EzyTrackIT_Web\CRM.Bussiness\bin\Debug\CRM.Data.dll
+F:\InventiX-Solutions\EzyTrackIT_Web\CRM.Bussiness\bin\Debug\Base.Data.pdb
+F:\InventiX-Solutions\EzyTrackIT_Web\CRM.Bussiness\bin\Debug\CRM.Artifacts.pdb
+F:\InventiX-Solutions\EzyTrackIT_Web\CRM.Bussiness\bin\Debug\CRM.Data.pdb
+F:\InventiX-Solutions\EzyTrackIT_Web\CRM.Bussiness\obj\Debug\CRM.Bussiness.csproj.AssemblyReference.cache
+F:\InventiX-Solutions\EzyTrackIT_Web\CRM.Bussiness\obj\Debug\CRM.Bussiness.csproj.CoreCompileInputs.cache
+F:\InventiX-Solutions\EzyTrackIT_Web\CRM.Bussiness\obj\Debug\CRM.Bussiness.csproj.CopyComplete
+F:\InventiX-Solutions\EzyTrackIT_Web\CRM.Bussiness\obj\Debug\CRM.Bussiness.dll
+F:\InventiX-Solutions\EzyTrackIT_Web\CRM.Bussiness\obj\Debug\CRM.Bussiness.pdb

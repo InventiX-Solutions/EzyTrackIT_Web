@@ -1,0 +1,27 @@
+{
+  "CacheSourceKey": "1eh90gc",
+  "CachePdfKey": "1eh90gc/1eh90gc-1nrwo2i.pdf",
+  "CacheXpzKey": "1eh90gc/1eh90gc-1gclb8x.xpz",
+  "CacheInfoKey": "1eh90gc/1eh90gc-1gclb8x.json",
+  "CacheCopyKey": null,
+  "Document": "E:\\2019 WorkSpace\\SVN\\PeritusSVNServer\\TCC\\TCC-TrackIT\\trunk\\TCC-CRM\\Transactions\\UploadDocuments\\TicketUploads\\esyvisitflow.png",
+  "DocumentHandlerType": null,
+  "DocumentHandlerParameters": null,
+  "DocumentLocation": null,
+  "DocumentFileName": "esyvisitflow.png",
+  "InputOptions": {
+    "Format": "Png",
+    "Password": null
+  },
+  "PdfOutputOptions": {
+    "Watermarks": [],
+    "FastWebViewEnabled": false,
+    "Password": null,
+    "Format": "Pdf"
+  },
+  "XpzOutputOptions": {
+    "Password": "1eh90gc",
+    "HighQualityEnabled": false,
+    "Format": "Xpz"
+  }
+}

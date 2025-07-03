@@ -1,0 +1,17 @@
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\Base.Data\bin\Release\Base.Data.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\Base.Data\bin\Release\Base.Data.pdb
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\Base.Data\obj\Release\Base.Data.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\Base.Data\obj\Release\Base.Data.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\Base.Data\bin\Release\Base.Data.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\Base.Data\bin\Release\Base.Data.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\Base.Data\obj\Release\Base.Data.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\Base.Data\obj\Release\Base.Data.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\bin\Release\Base.Data.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\bin\Release\Base.Data.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\obj\Release\Base.Data.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\obj\Release\Base.Data.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\obj\Release\Base.Data.csproj.AssemblyReference.cache
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\obj\Release\Base.Data.csproj.CoreCompileInputs.cache
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\obj\Release\Base.Data.dll
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\obj\Release\Base.Data.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\obj\Release\Base.Data.csprojResolveAssemblyReference.cache

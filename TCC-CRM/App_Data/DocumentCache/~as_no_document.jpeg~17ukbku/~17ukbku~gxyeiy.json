@@ -1,0 +1,27 @@
+{
+  "CacheSourceKey": "17ukbku",
+  "CachePdfKey": "17ukbku/17ukbku-md9rl0.pdf",
+  "CacheXpzKey": "17ukbku/17ukbku-gxyeiy.xpz",
+  "CacheInfoKey": "17ukbku/17ukbku-gxyeiy.json",
+  "CacheCopyKey": null,
+  "Document": "E:\\2019 WorkSpace\\SVN\\PeritusSVNServer\\TCC\\TCC-TrackIT\\trunk\\TCC-CRM\\Transactions\\UploadDocuments\\TicketUploads\\as_no_document.jpeg",
+  "DocumentHandlerType": null,
+  "DocumentHandlerParameters": null,
+  "DocumentLocation": null,
+  "DocumentFileName": "as_no_document.jpeg",
+  "InputOptions": {
+    "Format": "Jpg",
+    "Password": null
+  },
+  "PdfOutputOptions": {
+    "Watermarks": [],
+    "FastWebViewEnabled": false,
+    "Password": null,
+    "Format": "Pdf"
+  },
+  "XpzOutputOptions": {
+    "Password": "17ukbku",
+    "HighQualityEnabled": false,
+    "Format": "Xpz"
+  }
+}

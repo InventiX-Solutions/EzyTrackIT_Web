@@ -1,0 +1,38 @@
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Bussiness\bin\Release\CRM.Bussiness.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Bussiness\bin\Release\CRM.Bussiness.pdb
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Bussiness\bin\Release\Base.Data.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Bussiness\bin\Release\CRM.Artifacts.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Bussiness\bin\Release\CRM.Data.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Bussiness\bin\Release\Base.Data.pdb
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Bussiness\bin\Release\CRM.Artifacts.pdb
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Bussiness\bin\Release\CRM.Data.pdb
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Bussiness\obj\Release\CRM.Bussiness.csprojResolveAssemblyReference.cache
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Bussiness\obj\Release\CRM.Bussiness.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Bussiness\obj\Release\CRM.Bussiness.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\bin\Release\CRM.Bussiness.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\bin\Release\CRM.Bussiness.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\bin\Release\Base.Data.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\bin\Release\CRM.Artifacts.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\bin\Release\CRM.Data.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\bin\Release\Base.Data.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\bin\Release\CRM.Artifacts.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\bin\Release\CRM.Data.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\obj\Release\CRM.Bussiness.csprojResolveAssemblyReference.cache
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\obj\Release\CRM.Bussiness.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Bussiness\obj\Release\CRM.Bussiness.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Release\CRM.Bussiness.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Release\CRM.Bussiness.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Release\Base.Data.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Release\CRM.Artifacts.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Release\CRM.Data.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Release\Base.Data.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Release\CRM.Artifacts.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\bin\Release\CRM.Data.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\obj\Release\CRM.Bussiness.csprojResolveAssemblyReference.cache
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\obj\Release\CRM.Bussiness.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\obj\Release\CRM.Bussiness.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\obj\Release\CRM.Bussiness.csproj.AssemblyReference.cache
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\obj\Release\CRM.Bussiness.csproj.CoreCompileInputs.cache
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\obj\Release\CRM.Bussiness.dll
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\obj\Release\CRM.Bussiness.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Bussiness\obj\Release\CRM.Bussiness.csprojResolveAssemblyReference.cache

@@ -1,0 +1,27 @@
+{
+  "CacheSourceKey": "jnvkh5",
+  "CachePdfKey": "jnvkh5/jnvkh5-md9rl0.pdf",
+  "CacheXpzKey": "jnvkh5/jnvkh5-1y2qzzo.xpz",
+  "CacheInfoKey": "jnvkh5/jnvkh5-1y2qzzo.json",
+  "CacheCopyKey": null,
+  "Document": "D:\\Elavarasan\\Web\\ServiceDeskWeb\\ServiceDesk\\trunk\\TCC-CRM\\Transactions\\UploadDocuments\\TicketUploads\\as_no_document.jpeg",
+  "DocumentHandlerType": null,
+  "DocumentHandlerParameters": null,
+  "DocumentLocation": null,
+  "DocumentFileName": "as_no_document.jpeg",
+  "InputOptions": {
+    "Format": "Jpg",
+    "Password": null
+  },
+  "PdfOutputOptions": {
+    "Watermarks": [],
+    "FastWebViewEnabled": false,
+    "Password": null,
+    "Format": "Pdf"
+  },
+  "XpzOutputOptions": {
+    "Password": "jnvkh5",
+    "HighQualityEnabled": false,
+    "Format": "Xpz"
+  }
+}

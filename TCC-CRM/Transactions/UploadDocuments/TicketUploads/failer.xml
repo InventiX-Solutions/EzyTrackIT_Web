@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-16"?>
+<consignment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <is-draft>No</is-draft>
+  <consolidate>No</consolidate>
+  <shipper-company-code>Ehaat</shipper-company-code>
+  <consignment-number />
+  <consignor-company-id>0</consignor-company-id>
+  <consignor-company-name>Sambalpur</consignor-company-name>
+  <delivery-notes />
+  <consignor-facility-name>Sambalpur</consignor-facility-name>
+  <consignor-facility-code />
+  <consignor-address-line1 />
+  <consignor-address-line2 />
+  <consignor-city>Sambalpur</consignor-city>
+  <consignor-state>Odisha</consignor-state>
+  <consignor-pin>768001</consignor-pin>
+  <consignor-phone>1234567</consignor-phone>
+  <consignee-company-id>0</consignee-company-id>
+  <consignee-company-name>SAUKI BHOI</consignee-company-name>
+  <consignee-facility-name>SAUKI BHOI</consignee-facility-name>
+  <consignee-facility-code>9078723869</consignee-facility-code>
+  <consignee-address-line1>SAUKI BHOI, 1, Bhejipadar, Bhejipadar, Bhejipadar, school, B</consignee-address-line1>
+  <consignee-address-line2>alangir, ODISHA, 767032Near schoolBhejipadar</consignee-address-line2>
+  <consignee-city>Balangir</consignee-city>
+  <consignee-state>Odisha</consignee-state>
+  <consignee-pin>767032</consignee-pin>
+  <consignee-phone>9078723869</consignee-phone>
+  <ref1>3000133057</ref1>
+  <ref2>5112279000087287</ref2>
+  <ready-for-pickup-at>27-06-2019</ready-for-pickup-at>
+  <service_option>PTL-Normal</service_option>
+  <truck-category />
+  <payment-mode />
+  <consignment-contents>
+    <consignment-content>
+      <delivery-number />
+      <reference-number>SBP-19/20-00004</reference-number>
+      <product-name>Godrej Refrigerator RD EDGE 185 E2H 2.2 Wine Red</product-name>
+      <product-display-name>Godrej Refrigerator RD EDGE 185 E2H 2.2 Wine Red</product-display-name>
+      <units>1</units>
+      <unit-type>Units</unit-type>
+      <weight>40</weight>
+      <billable-weight />
+      <weight-measure>Kgs</weight-measure>
+    </consignment-content>
+  </consignment-contents>
+  <consignment-invoices>
+    <consignment-invoice>
+      <delivery-number />
+      <invoice-number>SBP-19/20-00004</invoice-number>
+      <invoice-value>0.00</invoice-value>
+      <invoice-date>27-06-2019</invoice-date>
+      <cod-amount>0</cod-amount>
+    </consignment-invoice>
+  </consignment-invoices>
+</consignment>

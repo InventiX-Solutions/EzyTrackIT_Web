@@ -1,0 +1,32 @@
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Data\bin\Release\CRM.Data.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Data\bin\Release\CRM.Data.pdb
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Data\bin\Release\Base.Data.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Data\bin\Release\CRM.Artifacts.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Data\bin\Release\Base.Data.pdb
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Data\bin\Release\CRM.Artifacts.pdb
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Data\obj\Release\CRM.Data.csprojResolveAssemblyReference.cache
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Data\obj\Release\CRM.Data.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\CRM.Data\obj\Release\CRM.Data.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Data\bin\Release\CRM.Data.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Data\bin\Release\CRM.Data.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Data\bin\Release\Base.Data.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Data\bin\Release\CRM.Artifacts.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Data\bin\Release\Base.Data.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Data\bin\Release\CRM.Artifacts.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Data\obj\Release\CRM.Data.csprojResolveAssemblyReference.cache
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Data\obj\Release\CRM.Data.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\CRM.Data\obj\Release\CRM.Data.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Data\bin\Release\CRM.Data.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Data\bin\Release\CRM.Data.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Data\bin\Release\Base.Data.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Data\bin\Release\CRM.Artifacts.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Data\bin\Release\Base.Data.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Data\bin\Release\CRM.Artifacts.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Data\obj\Release\CRM.Data.csprojResolveAssemblyReference.cache
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Data\obj\Release\CRM.Data.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Data\obj\Release\CRM.Data.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Data\obj\Release\CRM.Data.csproj.AssemblyReference.cache
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Data\obj\Release\CRM.Data.csproj.CoreCompileInputs.cache
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Data\obj\Release\CRM.Data.dll
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Data\obj\Release\CRM.Data.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\CRM.Data\obj\Release\CRM.Data.csprojResolveAssemblyReference.cache

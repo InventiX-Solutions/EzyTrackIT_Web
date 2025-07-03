@@ -1,0 +1,30 @@
+{
+  "CacheSourceKey": "1i4mifk",
+  "CachePdfKey": "1i4mifk/1i4mifk-1nuy2vv.pdf",
+  "CacheXpzKey": "1i4mifk/1i4mifk-1kaba5r.xpz",
+  "CacheInfoKey": "1i4mifk/1i4mifk-1kaba5r.json",
+  "CacheCopyKey": null,
+  "Document": "E:\\2019 WorkSpace\\SVN\\PeritusSVNServer\\TCC\\TCC-TrackIT\\trunk\\TCC-CRM\\Transactions\\UploadDocuments\\TicketUploads\\failer.xml",
+  "DocumentHandlerType": null,
+  "DocumentHandlerParameters": null,
+  "DocumentLocation": null,
+  "DocumentFileName": "failer.xml",
+  "InputOptions": {
+    "$type": "GleamTech.DocumentUltimate.WordProcessingInputOptions, GleamTech.DocumentUltimate",
+    "FieldFileName": null,
+    "UpdateFields": true,
+    "Format": "Txt",
+    "Password": null
+  },
+  "PdfOutputOptions": {
+    "Watermarks": [],
+    "FastWebViewEnabled": false,
+    "Password": null,
+    "Format": "Pdf"
+  },
+  "XpzOutputOptions": {
+    "Password": "1i4mifk",
+    "HighQualityEnabled": false,
+    "Format": "Xpz"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "CacheSourceKey": "19s6jmy",
+  "CachePdfKey": "19s6jmy/19s6jmy-1nuy2vv.pdf",
+  "CacheXpzKey": "19s6jmy/19s6jmy-1hutkwa.xpz",
+  "CacheInfoKey": "19s6jmy/19s6jmy-1hutkwa.json",
+  "CacheCopyKey": null,
+  "Document": "E:\\2019 WorkSpace\\SVN\\PeritusSVNServer\\TCC\\TCC-TrackIT\\trunk\\TCC-CRM\\Transactions\\UploadDocuments\\TicketUploads\\decrypted.txt",
+  "DocumentHandlerType": null,
+  "DocumentHandlerParameters": null,
+  "DocumentLocation": null,
+  "DocumentFileName": "decrypted.txt",
+  "InputOptions": {
+    "$type": "GleamTech.DocumentUltimate.WordProcessingInputOptions, GleamTech.DocumentUltimate",
+    "FieldFileName": null,
+    "UpdateFields": true,
+    "Format": "Txt",
+    "Password": null
+  },
+  "PdfOutputOptions": {
+    "Watermarks": [],
+    "FastWebViewEnabled": false,
+    "Password": null,
+    "Format": "Pdf"
+  },
+  "XpzOutputOptions": {
+    "Password": "19s6jmy",
+    "HighQualityEnabled": false,
+    "Format": "Xpz"
+  }
+}

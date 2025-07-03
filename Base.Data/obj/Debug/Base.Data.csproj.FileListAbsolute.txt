@@ -1,0 +1,60 @@
+c:\Users\Admin\documents\visual studio 2012\Projects\TCC-CRM\Base.Data\bin\Debug\Base.Data.dll
+c:\Users\Admin\documents\visual studio 2012\Projects\TCC-CRM\Base.Data\bin\Debug\Base.Data.pdb
+c:\Users\Admin\documents\visual studio 2012\Projects\TCC-CRM\Base.Data\obj\Debug\Base.Data.dll
+c:\Users\Admin\documents\visual studio 2012\Projects\TCC-CRM\Base.Data\obj\Debug\Base.Data.pdb
+c:\Users\Admin\documents\visual studio 2012\Projects\TCC-CRM\Base.Data\obj\Debug\Base.Data.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\TCC-TrackIT\Base.Data\bin\Debug\Base.Data.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\TCC-TrackIT\Base.Data\bin\Debug\Base.Data.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\TCC-TrackIT\Base.Data\obj\Debug\Base.Data.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\TCC-TrackIT\Base.Data\obj\Debug\Base.Data.pdb
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC-TrackIT\trunk\Base.Data\bin\Debug\Base.Data.dll
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC-TrackIT\trunk\Base.Data\bin\Debug\Base.Data.pdb
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC-TrackIT\trunk\Base.Data\obj\Debug\Base.Data.dll
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC-TrackIT\trunk\Base.Data\obj\Debug\Base.Data.pdb
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC\TCC-TrackIT\trunk\Base.Data\bin\Debug\Base.Data.dll
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC\TCC-TrackIT\trunk\Base.Data\bin\Debug\Base.Data.pdb
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC\TCC-TrackIT\trunk\Base.Data\obj\Debug\Base.Data.dll
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC\TCC-TrackIT\trunk\Base.Data\obj\Debug\Base.Data.pdb
+D:\Dhana\trunk\Base.Data\bin\Debug\Base.Data.dll
+D:\Dhana\trunk\Base.Data\bin\Debug\Base.Data.pdb
+D:\Dhana\trunk\Base.Data\obj\Debug\Base.Data.csprojResolveAssemblyReference.cache
+D:\Dhana\trunk\Base.Data\obj\Debug\Base.Data.dll
+D:\Dhana\trunk\Base.Data\obj\Debug\Base.Data.pdb
+E:\2019 WorkSpace\SVN\PeritusSVNServer\TCC\TCC-TrackIT\trunk\Base.Data\obj\Debug\Base.Data.csprojResolveAssemblyReference.cache
+E:\Peritus_SVN\TCC-TrackIT\trunk\Base.Data\bin\Debug\Base.Data.dll
+E:\Peritus_SVN\TCC-TrackIT\trunk\Base.Data\bin\Debug\Base.Data.pdb
+E:\Peritus_SVN\TCC-TrackIT\trunk\Base.Data\obj\Debug\Base.Data.dll
+E:\Peritus_SVN\TCC-TrackIT\trunk\Base.Data\obj\Debug\Base.Data.pdb
+F:\ElaVarasan\TrackIT\TCC-TrackIT\trunk\Base.Data\bin\Debug\Base.Data.dll
+F:\ElaVarasan\TrackIT\TCC-TrackIT\trunk\Base.Data\bin\Debug\Base.Data.pdb
+F:\ElaVarasan\TrackIT\TCC-TrackIT\trunk\Base.Data\obj\Debug\Base.Data.csprojResolveAssemblyReference.cache
+F:\ElaVarasan\TrackIT\TCC-TrackIT\trunk\Base.Data\obj\Debug\Base.Data.dll
+F:\ElaVarasan\TrackIT\TCC-TrackIT\trunk\Base.Data\obj\Debug\Base.Data.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\Base.Data\bin\Debug\Base.Data.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\Base.Data\bin\Debug\Base.Data.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\Base.Data\obj\Debug\Base.Data.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\Base.Data\obj\Debug\Base.Data.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\Base.Data\obj\Debug\Base.Data.csprojResolveAssemblyReference.cache
+E:\2020 WorkSpace\SVN\EZYTrackIT\trunk\Base.Data\bin\Debug\Base.Data.dll
+E:\2020 WorkSpace\SVN\EZYTrackIT\trunk\Base.Data\bin\Debug\Base.Data.pdb
+E:\2020 WorkSpace\SVN\EZYTrackIT\trunk\Base.Data\obj\Debug\Base.Data.dll
+E:\2020 WorkSpace\SVN\EZYTrackIT\trunk\Base.Data\obj\Debug\Base.Data.pdb
+E:\2020 WorkSpace\SVN\EZYTrackIT\trunk\Base.Data\obj\Debug\Base.Data.csprojResolveAssemblyReference.cache
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\bin\Debug\Base.Data.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\bin\Debug\Base.Data.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\obj\Debug\Base.Data.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\obj\Debug\Base.Data.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\bin\Debug\Base.Data.dll
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\bin\Debug\Base.Data.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\obj\Debug\Base.Data.dll
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\obj\Debug\Base.Data.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\obj\Debug\Base.Data.csproj.AssemblyReference.cache
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\obj\Debug\Base.Data.csproj.CoreCompileInputs.cache
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\Base.Data\obj\Debug\Base.Data.csproj.CopyComplete
+F:\InventiX-Solutions\EzyTrackIT_Web\Base.Data\bin\Debug\Base.Data.dll
+F:\InventiX-Solutions\EzyTrackIT_Web\Base.Data\bin\Debug\Base.Data.pdb
+F:\InventiX-Solutions\EzyTrackIT_Web\Base.Data\obj\Debug\Base.Data.csproj.AssemblyReference.cache
+F:\InventiX-Solutions\EzyTrackIT_Web\Base.Data\obj\Debug\Base.Data.csproj.CoreCompileInputs.cache
+F:\InventiX-Solutions\EzyTrackIT_Web\Base.Data\obj\Debug\Base.Data.csproj.CopyComplete
+F:\InventiX-Solutions\EzyTrackIT_Web\Base.Data\obj\Debug\Base.Data.dll
+F:\InventiX-Solutions\EzyTrackIT_Web\Base.Data\obj\Debug\Base.Data.pdb

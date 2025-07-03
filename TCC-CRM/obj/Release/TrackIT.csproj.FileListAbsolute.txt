@@ -1,0 +1,348 @@
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\TCC-CRM.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\TCC-CRM.pdb
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\Antlr3.Runtime.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\AspNet.ScriptManager.jQuery.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\Base.Data.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\CRM.Artifacts.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\CRM.Bussiness.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\CRM.Data.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\DotNetOpenAuth.AspNet.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\DotNetOpenAuth.Core.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\DotNetOpenAuth.OAuth.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\DotNetOpenAuth.OpenId.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\EntityFramework.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\Microsoft.Web.Infrastructure.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\System.Web.Optimization.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\System.Web.Providers.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\WebGrease.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\Base.Data.pdb
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\CRM.Artifacts.pdb
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\CRM.Bussiness.pdb
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\CRM.Data.pdb
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\EntityFramework.xml
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\DotNetOpenAuth.Core.xml
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\DotNetOpenAuth.OAuth.xml
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\DotNetOpenAuth.OpenId.xml
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\bin\DotNetOpenAuth.AspNet.xml
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\obj\Release\TrackIT.csprojResolveAssemblyReference.cache
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\obj\Release\TCC-CRM.dll.licenses
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\obj\Release\TCC-CRM.dll
+D:\Elavarasan\Web\ServiceDeskWeb\ServiceDesk\trunk\TCC-CRM\obj\Release\TCC-CRM.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\TCC-CRM.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\TCC-CRM.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\Antlr3.Runtime.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\AspNet.ScriptManager.jQuery.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\Base.Data.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\CRM.Artifacts.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\CRM.Bussiness.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\CRM.Data.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\DotNetOpenAuth.AspNet.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\DotNetOpenAuth.Core.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\DotNetOpenAuth.OAuth.Consumer.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\DotNetOpenAuth.OAuth.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\DotNetOpenAuth.OpenId.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\EntityFramework.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\Microsoft.ScriptManager.MSAjax.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\Microsoft.ScriptManager.WebForms.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\Microsoft.Web.Infrastructure.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\System.Web.Optimization.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\System.Web.Providers.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\WebGrease.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\Base.Data.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\CRM.Artifacts.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\CRM.Bussiness.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\CRM.Data.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\EntityFramework.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\DotNetOpenAuth.Core.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\DotNetOpenAuth.OAuth.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\DotNetOpenAuth.OAuth.Consumer.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\DotNetOpenAuth.OpenId.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\bin\DotNetOpenAuth.AspNet.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\obj\Release\TrackIT.csprojResolveAssemblyReference.cache
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\obj\Release\TCC-CRM.dll.licenses
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\obj\Release\TCC-CRM.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT\trunk\TCC-CRM\obj\Release\TCC-CRM.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\TCC-CRM.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\TCC-CRM.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Antlr3.Runtime.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\AspNet.ScriptManager.jQuery.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Base.Data.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\CRM.Artifacts.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\CRM.Bussiness.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\CRM.Data.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.AspNet.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.Core.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.OAuth.Consumer.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.OAuth.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.OpenId.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\EntityFramework.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Microsoft.ScriptManager.MSAjax.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Microsoft.ScriptManager.WebForms.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Microsoft.Web.Infrastructure.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\System.Web.Optimization.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\System.Web.Providers.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\WebGrease.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Base.Data.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\CRM.Artifacts.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\CRM.Bussiness.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\CRM.Data.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\EntityFramework.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.Core.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.OAuth.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.OAuth.Consumer.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.OpenId.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.AspNet.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\obj\Release\TCC-CRM.dll.licenses
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\obj\Release\TCC-CRM.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\obj\Release\TCC-CRM.pdb
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\obj\Release\TrackIT.csprojAssemblyReference.cache
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\obj\Release\TrackIT.csproj.CoreCompileInputs.cache
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\TCC-CRM.dll.config
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Charts.v18.2.Core.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Data.v18.2.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Office.v18.2.Core.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.PivotGrid.v18.2.Core.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Printing.v18.2.Core.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.RichEdit.v18.2.Core.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Web.ASPxPivotGrid.v18.2.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Web.ASPxThemes.v18.2.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Web.Resources.v18.2.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Web.v18.2.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraCharts.v18.2.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraCharts.v18.2.Web.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraGauges.v18.2.Core.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraGauges.v18.2.Presets.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraGauges.v18.2.Win.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraMap.v18.2.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraPrinting.v18.2.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraReports.v18.2.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Hangfire.AspNet.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Hangfire.Core.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Hangfire.SqlServer.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Microsoft.Owin.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Microsoft.Owin.Host.SystemWeb.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Newtonsoft.Json.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Owin.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Pdf.v18.2.Core.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Images.v18.2.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Utils.v18.2.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraEditors.v18.2.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraLayout.v18.2.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraBars.v18.2.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraTreeList.v18.2.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Map.v18.2.Core.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Xpo.v18.2.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.DataAccess.v18.2.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Sparkline.v18.2.Core.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\System.Web.WebPages.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\System.Web.Mvc.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.CodeParser.v18.2.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\System.Web.WebPages.Deployment.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\System.Web.Razor.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\System.Web.WebPages.Razor.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Data.v18.2.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Office.v18.2.Core.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.PivotGrid.v18.2.Core.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Printing.v18.2.Core.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.RichEdit.v18.2.Core.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Web.ASPxPivotGrid.v18.2.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Web.v18.2.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraCharts.v18.2.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraCharts.v18.2.Web.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraGauges.v18.2.Core.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraGauges.v18.2.Presets.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraPrinting.v18.2.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraGauges.v18.2.Win.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraMap.v18.2.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraReports.v18.2.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Hangfire.AspNet.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Hangfire.Core.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Hangfire.SqlServer.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Microsoft.Owin.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Microsoft.Owin.Host.SystemWeb.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\Newtonsoft.Json.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Pdf.v18.2.Core.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Utils.v18.2.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraEditors.v18.2.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraLayout.v18.2.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraBars.v18.2.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.XtraTreeList.v18.2.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Map.v18.2.Core.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Xpo.v18.2.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.DataAccess.v18.2.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DevExpress.Sparkline.v18.2.Core.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\System.Web.WebPages.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\System.Web.Mvc.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\System.Web.WebPages.Deployment.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\System.Web.Razor.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\System.Web.WebPages.Razor.xml
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.Data.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.Data.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.Data.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.Data.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.Office.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.Office.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.Office.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.Office.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.PivotGrid.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.PivotGrid.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.PivotGrid.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.PivotGrid.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.Printing.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.Printing.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.Printing.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.Printing.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.RichEdit.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.RichEdit.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.RichEdit.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.RichEdit.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.Web.Resources.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.Web.Resources.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.Web.Resources.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.Web.Resources.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.Web.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.Web.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.Web.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.Web.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.XtraCharts.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.XtraCharts.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.XtraCharts.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.XtraCharts.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.XtraGauges.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.XtraGauges.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.XtraGauges.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.XtraGauges.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.XtraGauges.v18.2.Presets.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.XtraGauges.v18.2.Presets.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.XtraGauges.v18.2.Presets.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.XtraGauges.v18.2.Presets.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.XtraPrinting.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.XtraPrinting.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.XtraPrinting.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.XtraPrinting.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.XtraReports.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.XtraReports.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.XtraReports.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.XtraReports.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ca\Hangfire.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\Hangfire.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\Hangfire.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\fa\Hangfire.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\fr\Hangfire.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\nb\Hangfire.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\nl\Hangfire.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\pt\Hangfire.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\pt-BR\Hangfire.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\pt-PT\Hangfire.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\zh\Hangfire.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\zh-TW\Hangfire.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.Pdf.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.Pdf.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.Pdf.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.Pdf.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.Utils.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.Utils.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.Utils.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.Utils.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.XtraEditors.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.XtraEditors.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.XtraEditors.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.XtraEditors.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.XtraLayout.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.XtraLayout.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.XtraLayout.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.XtraLayout.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.XtraBars.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.XtraBars.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.XtraBars.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.XtraBars.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.XtraTreeList.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.XtraTreeList.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.XtraTreeList.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.XtraTreeList.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.Map.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.Map.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.Map.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.Map.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.Xpo.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.Xpo.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.Xpo.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.Xpo.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.DataAccess.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.DataAccess.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.DataAccess.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.DataAccess.v18.2.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\de\DevExpress.Sparkline.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\es\DevExpress.Sparkline.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ja\DevExpress.Sparkline.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\ru\DevExpress.Sparkline.v18.2.Core.resources.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\obj\Release\TrackIT.csproj.CopyComplete
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DocumentFormat.OpenXml.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\FastMember.Signed.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\System.IO.FileSystem.Primitives.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\System.IO.Packaging.dll
+B:\Velu\Peritus 2020\Projects\EzyTrakIT_Web\trunk\TCC-CRM\bin\DocumentFormat.OpenXml.xml
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\TCC-CRM.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\TCC-CRM.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\Antlr3.Runtime.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\AspNet.ScriptManager.jQuery.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\Base.Data.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\CRM.Artifacts.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\CRM.Bussiness.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\CRM.Data.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.AspNet.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.Core.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.OAuth.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.OpenId.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\EntityFramework.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\Microsoft.Web.Infrastructure.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\System.Web.Optimization.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\System.Web.Providers.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\WebGrease.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\Base.Data.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\CRM.Artifacts.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\CRM.Bussiness.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\CRM.Data.pdb
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\EntityFramework.xml
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.Core.xml
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.OAuth.xml
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.OpenId.xml
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\bin\DotNetOpenAuth.AspNet.xml
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\obj\Release\TrackIT.csprojResolveAssemblyReference.cache
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\obj\Release\TCC-CRM.dll.licenses
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\obj\Release\TCC-CRM.dll
+D:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\obj\Release\TCC-CRM.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\obj\Release\TrackIT.csproj.AssemblyReference.cache
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\obj\Release\TCC-CRM.dll.licenses
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\obj\Release\TrackIT.csproj.CoreCompileInputs.cache
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\obj\Release\TCC-CRM.dll
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\obj\Release\TCC-CRM.pdb
+F:\Peritus 2021\Products\EzyTrackIT\EzyTrackIT_Web\trunk\TCC-CRM\obj\Release\TrackIT.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<POStatus>
+   <Status Text="All" Name="0" ImageUrl="~/Images/selectall.png" />
+  <Status Text="New" Name="1" ImageUrl="~/Images/orangesmall.png" />
+  <Status Text="Open" Name="2" ImageUrl="~/Images/orange2.png" />
+  <Status Text="Closed" Name="3" ImageUrl="~/Images/greensmall.png"/>
+ 
+  <!-- <Status Text="Cancelled" Name="Cancelled" ImageUrl="~/Images/redsmall.png" /> -->
+</POStatus>
