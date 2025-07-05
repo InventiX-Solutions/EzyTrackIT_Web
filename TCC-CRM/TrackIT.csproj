@@ -3006,6 +3006,7 @@
     <Content Include="Images\orderedList7.png" />
     <Content Include="Images\orderedList8.png" />
     <Content Include="Images\orderedList9.png" />
+    <Content Include="Images\perituslogo.png" />
     <Content Include="Images\premium_helpdesk.jpg" />
     <Content Include="Images\tcchome.jpg" />
     <Content Include="Images\user.jpg" />
@@ -3734,6 +3735,7 @@
     <Content Include="Session.aspx" />
     <Content Include="Transactions\Attendance.aspx" />
     <Content Include="Transactions\CustomerDashboard.aspx" />
+    <Content Include="Transactions\StatusDashboard.aspx" />
     <Content Include="Transactions\Dashboard.aspx" />
     <Content Include="Transactions\EngineerDashboard.aspx" />
     <Content Include="Transactions\MileageReport.aspx" />
@@ -4029,6 +4031,13 @@
     </Compile>
     <Compile Include="Transactions\CustomerDashboard.aspx.designer.cs">
       <DependentUpon>CustomerDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\StatusDashboard.aspx.cs">
+      <DependentUpon>StatusDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transactions\StatusDashboard.aspx.designer.cs">
+      <DependentUpon>StatusDashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transactions\Dashboard.aspx.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
