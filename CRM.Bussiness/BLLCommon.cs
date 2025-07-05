@@ -22,7 +22,11 @@ namespace CRM.Bussiness
             DALCommon myDALCommon = new DALCommon();
             return myDALCommon.GetStatusData(ReportType, StartTime, FinishTime, CustomerID, BranchID, ProductID, BrandID, ModelID, ProblemID, EngineerID, jobtypeID, dbname);
         }
-
+        public DataTable GetStatusdashboardData( string dbname)
+        {
+            DALCommon myDALCommon = new DALCommon();
+            return myDALCommon.GetStatusDashboardData( dbname);
+        }
         public DataTable GetExpectedStatusValuesAsDataTable(string dbname)
         {
             DALCommon myDALCommon = new DALCommon();

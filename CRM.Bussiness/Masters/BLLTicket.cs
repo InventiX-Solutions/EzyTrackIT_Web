@@ -32,6 +32,12 @@ namespace CRM.Bussiness.Masters
             DALTicket myDALTicket = new DALTicket();
             return myDALTicket.GetTicketList(fromdate, todate, status,customer,Branch,Product,Brand,Model,Problem,Engineer,Jobtype, dbname);
         }
+
+        public DataTable GetstatusTicketList(int? status, string dbname)
+        {
+            DALTicket myDALTicket = new DALTicket();
+            return myDALTicket.GetstatusTicketList( status, dbname);
+        }
         //public DataTable GetTicketListExcel(string fromdate, string todate, int? status, int? customer, int? Branch, int? Product, int? Brand, int? Model, int? Problem, int? Engineer, int? Jobtype, string dbname)
         //{
         //    DALTicket myDALTicket = new DALTicket();
