@@ -7,11 +7,22 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TCC_CRM.Transactions {
-    
-    
-    public partial class TicketList {
-        
+namespace TCC_CRM.Transactions
+{
+
+
+    public partial class TicketList
+    {
+
+        /// <summary>
+        /// filterPanel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl filterPanel;
+
         /// <summary>
         /// orderfromdt control.
         /// </summary>
@@ -20,7 +31,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxDateEdit orderfromdt;
-        
+
         /// <summary>
         /// ordertodt control.
         /// </summary>
@@ -29,7 +40,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxDateEdit ordertodt;
-        
+
         /// <summary>
         /// cmbstatus control.
         /// </summary>
@@ -38,7 +49,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList cmbstatus;
-        
+
         /// <summary>
         /// hdnstatus control.
         /// </summary>
@@ -47,7 +58,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hdnstatus;
-        
+
         /// <summary>
         /// cmbcustomer control.
         /// </summary>
@@ -56,7 +67,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList cmbcustomer;
-        
+
         /// <summary>
         /// cmbproduct control.
         /// </summary>
@@ -65,7 +76,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList cmbproduct;
-        
+
         /// <summary>
         /// cmbNOP control.
         /// </summary>
@@ -74,7 +85,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList cmbNOP;
-        
+
         /// <summary>
         /// ddlengg control.
         /// </summary>
@@ -83,7 +94,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlengg;
-        
+
         /// <summary>
         /// cmbJoTys control.
         /// </summary>
@@ -92,7 +103,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList cmbJoTys;
-        
+
         /// <summary>
         /// btngo control.
         /// </summary>
@@ -101,7 +112,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btngo;
-        
+
         /// <summary>
         /// btnnew control.
         /// </summary>
@@ -110,7 +121,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnnew;
-        
+
         /// <summary>
         /// excelxport control.
         /// </summary>
@@ -119,7 +130,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button excelxport;
-        
+
         /// <summary>
         /// Btnclear control.
         /// </summary>
@@ -128,7 +139,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Btnclear;
-        
+
         /// <summary>
         /// ASPxGridView1 control.
         /// </summary>
@@ -137,7 +148,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxGridView ASPxGridView1;
-        
+
         /// <summary>
         /// hdncustomer control.
         /// </summary>
@@ -146,7 +157,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hdncustomer;
-        
+
         /// <summary>
         /// hdnBranch control.
         /// </summary>
@@ -155,7 +166,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hdnBranch;
-        
+
         /// <summary>
         /// hdnProduct control.
         /// </summary>
@@ -164,7 +175,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hdnProduct;
-        
+
         /// <summary>
         /// hdnModel control.
         /// </summary>
@@ -173,7 +184,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hdnModel;
-        
+
         /// <summary>
         /// hdnBrand control.
         /// </summary>
@@ -182,7 +193,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hdnBrand;
-        
+
         /// <summary>
         /// hdnProblem control.
         /// </summary>
@@ -191,7 +202,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hdnProblem;
-        
+
         /// <summary>
         /// hdnEngineer control.
         /// </summary>
@@ -200,7 +211,7 @@ namespace TCC_CRM.Transactions {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hdnEngineer;
-        
+
         /// <summary>
         /// hdnJobtype control.
         /// </summary>

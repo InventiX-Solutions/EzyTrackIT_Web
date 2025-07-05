@@ -31,6 +31,11 @@ namespace TCC_CRM.Transactions
 
                 if (!IsPostBack)
                 {
+                    if (!string.IsNullOrEmpty(Request.QueryString["statusid"]))
+                    {
+                        Session["DashboardStatusID"] = Request.QueryString["statusid"];
+                    }
+
                     // ASPxWebControl.RegisterBaseScript(this);  
                     hdnTicketID.Value = Request.QueryString["TicketID"].ToString();
                     hdnID.Value = Request.QueryString["id"].ToString();
@@ -546,24 +551,166 @@ namespace TCC_CRM.Transactions
             return tkt;
         }
 
+        //protected void OnbtnBackClick(object sender, EventArgs e)
+        //{
+        //    if (hdnID.Value == "1")
+        //    {
+        //        Response.Redirect("~/Transactions/Ticketlist.aspx", false);
+        //    }
+        //    else
+        //    {
+        //        Response.Redirect("~/Transactions/Tracking.aspx", false);
+        //    }
+
+        //}
+
         protected void OnbtnBackClick(object sender, EventArgs e)
         {
+            string statusId = Session["DashboardStatusID"] as string;
+
             if (hdnID.Value == "1")
             {
-                Response.Redirect("~/Transactions/Ticketlist.aspx", false);
+                if (!string.IsNullOrEmpty(statusId))
+                {
+                    Response.Redirect("~/Transactions/Ticketlist.aspx?statusid=" + statusId, false);
+                }
+                else
+                {
+                    Response.Redirect("~/Transactions/Ticketlist.aspx", false);
+                }
             }
             else
             {
                 Response.Redirect("~/Transactions/Tracking.aspx", false);
             }
-
         }
-
+       
         protected void OnBtnSaveClick(object sender, EventArgs e)
         {
 
             try
             {
+                if (cmbcustomer.SelectedValue.ToString() == "" || cmbcustomer.SelectedValue.ToString() == "Please Select")
+                {
+                    AlertMsg("Please select a valid customer.");
+                    return;
+                }
+
+                //if (cmbbranch.SelectedValue.ToString() == "" || cmbbranch.SelectedValue.ToString() == "Please Select"||hdnbranch.Value == "Please Select"|| hdnbranch.Value == ""|| hdnbranch.Value == "0")
+                //{
+                //    AlertMsg("Please select a valid branch.");
+                //    return;
+                //}
+                string ddlVal = cmbbranch.SelectedValue?.Trim() ?? "";
+                string hdnVal = hdnbranch.Value?.Trim() ?? "";
+
+                bool ddlInvalid = ddlVal == "" || ddlVal.Equals("Please Select", StringComparison.OrdinalIgnoreCase) || ddlVal == "0";
+                bool hdnInvalid = hdnVal == "" || hdnVal.Equals("Please Select", StringComparison.OrdinalIgnoreCase) || hdnVal == "0";
+
+                if (ddlInvalid && hdnInvalid)
+                {
+                    AlertMsg("Please select a valid branch.");
+                    return;
+                }
+
+                //if (string.IsNullOrWhiteSpace(txtcustadd.Text) || string.IsNullOrWhiteSpace(hdncustadd.Value))
+                //{
+                //    AlertMsg("Address is required.");
+                //    return;
+                //}
+                if (string.IsNullOrWhiteSpace(txtcustadd.Text) && string.IsNullOrWhiteSpace(hdncustadd.Value))
+                {
+                    AlertMsg("Address is required.");
+                    return;
+                }
+
+
+                if (string.IsNullOrWhiteSpace(txtserlocation.Text))
+                {
+                    AlertMsg("Service location is required.");
+                    return;
+                }
+
+                //if (cmbproduct.SelectedValue.ToString() == "" || cmbproduct.SelectedValue.ToString() == "Please Select" || hdnproduct.Value == "Please Select" || hdnproduct.Value == "")
+                //{
+                //    AlertMsg("Please select a valid product.");
+                //    return;
+                //}
+
+                //if (cmbbrand.SelectedValue.ToString() == "" || cmbbrand.SelectedValue.ToString() == "Please Select" || hdnbrand.Value == "Please Select" || hdnbrand.Value == "")
+                //{
+                //    AlertMsg("Please select a valid brand.");
+                //    return;
+                //}
+
+                //if (cmbmodel.SelectedValue.ToString() == "" || cmbmodel.SelectedValue.ToString() == "Please Select"||hdnmodel.Value == "Please Select" || hdnmodel.Value == "")
+                //{
+                //    AlertMsg("Please select a valid model.");
+                //    return;
+                //}
+
+                // For Product dropdown + hidden field
+                string ddlProd = cmbproduct.SelectedValue?.Trim() ?? "";
+                string hdnProd = hdnproduct.Value?.Trim() ?? "";
+                bool ddlProdInvalid = ddlProd == "" || ddlProd.Equals("Please Select", StringComparison.OrdinalIgnoreCase)|| ddlProd=="0";
+                bool hdnProdInvalid = hdnProd == "" || hdnProd.Equals("Please Select", StringComparison.OrdinalIgnoreCase )|| hdnProd== "0";
+
+                if (ddlProdInvalid && hdnProdInvalid)
+                {
+                    AlertMsg("Please select a valid product.");
+                    return;
+                }
+
+                // For Brand dropdown + hidden field
+                string ddlBrand = cmbbrand.SelectedValue?.Trim() ?? "";
+                string hdnBrand = hdnbrand.Value?.Trim() ?? "";
+                bool ddlBrandInvalid = ddlBrand == "" || ddlBrand.Equals("Please Select", StringComparison.OrdinalIgnoreCase)|| ddlBrand =="0";
+                bool hdnBrandInvalid = hdnBrand == "" || hdnBrand.Equals("Please Select", StringComparison.OrdinalIgnoreCase)|| hdnBrand == "0";
+
+                if (ddlBrandInvalid && hdnBrandInvalid)
+                {
+                    AlertMsg("Please select a valid brand.");
+                    return;
+                }
+
+                // For Model dropdown + hidden field
+                string ddlModel = cmbmodel.SelectedValue?.Trim() ?? "";
+                string hdnModel = hdnmodel.Value?.Trim() ?? "";
+                bool ddlModelInvalid = ddlModel == "" || ddlModel.Equals("Please Select", StringComparison.OrdinalIgnoreCase)|| ddlModel == "0";
+                bool hdnModelInvalid = hdnModel == "" || hdnModel.Equals("Please Select", StringComparison.OrdinalIgnoreCase)|| hdnModel == "0";
+
+                if (ddlModelInvalid && hdnModelInvalid)
+                {
+                    AlertMsg("Please select a valid model.");
+                    return;
+                }
+
+                if (cmbST.SelectedValue.ToString() == "" || cmbST.SelectedValue.ToString() == "Please Select")
+                {
+                    AlertMsg("Please select a valid service type.");
+                    return;
+                }
+
+                if (cmbNOP.SelectedValue.ToString() == "" || cmbNOP.SelectedValue.ToString() == "Please Select")
+                {
+                    AlertMsg("Please select a valid nature of problem.");
+                    return;
+                }
+
+                if (cmbpr.SelectedValue.ToString() == "" || cmbpr.SelectedValue.ToString() == "Please Select")
+                {
+                    AlertMsg("Please select a valid priority.");
+                    return;
+                }
+
+                if (cmbsev.SelectedValue.ToString() == "" || cmbsev.SelectedValue.ToString() == "Please Select")
+                {
+                    AlertMsg("Please select a valid severity.");
+                    return;
+                }
+
+
+
                 hdnTicketID.Value = Request.QueryString["TicketID"].ToString();
                 BETicket br = new BETicket();
                 List<BETicketStatus> tblstatusdetail_list = new List<BETicketStatus>();
@@ -1051,9 +1198,23 @@ namespace TCC_CRM.Transactions
         {
 
             DataTable dtLoadDropdownvalues = new DataTable();
+
+
             BLLTicket bll = new BLLTicket();
             List<ListItem> ListItems = new List<ListItem>();
-            dtLoadDropdownvalues = bll.GetCustomerdetails(Int32.Parse(CustomerID), SessionMgr.DBName);
+
+            if (string.IsNullOrEmpty(CustomerID) || CustomerID == "Please Select")
+            {
+                return ListItems; // return empty list or handle as needed
+            }
+
+            int customerIdParsed;
+            if (!Int32.TryParse(CustomerID, out customerIdParsed))
+            {
+                return ListItems; // return empty list if parsing fails
+            }
+
+            dtLoadDropdownvalues = bll.GetCustomerdetails(customerIdParsed, SessionMgr.DBName);
             foreach (DataRow drRow in dtLoadDropdownvalues.Rows)
             {
                 ListItems.Add(new ListItem
@@ -1069,12 +1230,44 @@ namespace TCC_CRM.Transactions
         [WebMethod()]
         public static branchDeatils GetBranchList(string branchID)
         {
+            //branchDeatils mbranchDeatils = new branchDeatils();
+
+            //BLLTicket bll = new BLLTicket();
+
+
+            //DataTable dtLoadList = bll.GetBranchdetails(Int32.Parse(branchID), SessionMgr.DBName);
+
+            //if (dtLoadList.Rows.Count > 0)
+            //{
+            //    mbranchDeatils.custAddress = dtLoadList.Rows[0]["Address"].ToString();
+            //    mbranchDeatils.serLocation = dtLoadList.Rows[0]["Address"].ToString();
+            //}
+            //else
+            //{
+            //    mbranchDeatils.custAddress = "";
+            //    mbranchDeatils.serLocation = "";
+            //}
+
+            //return mbranchDeatils;
             branchDeatils mbranchDeatils = new branchDeatils();
 
+            if (string.IsNullOrEmpty(branchID) || branchID == "Please Select")
+            {
+                mbranchDeatils.custAddress = "";
+                mbranchDeatils.serLocation = "";
+                return mbranchDeatils;
+            }
+
+            int branchIdParsed;
+            if (!Int32.TryParse(branchID, out branchIdParsed))
+            {
+                mbranchDeatils.custAddress = "";
+                mbranchDeatils.serLocation = "";
+                return mbranchDeatils;
+            }
+
             BLLTicket bll = new BLLTicket();
-
-
-            DataTable dtLoadList = bll.GetBranchdetails(Int32.Parse(branchID), SessionMgr.DBName);
+            DataTable dtLoadList = bll.GetBranchdetails(branchIdParsed, SessionMgr.DBName);
 
             if (dtLoadList.Rows.Count > 0)
             {
@@ -1103,7 +1296,19 @@ namespace TCC_CRM.Transactions
             DataTable dtLoadDropdownvalues = new DataTable();
             BLLTicket bll = new BLLTicket();
             List<ListItem> ListItems = new List<ListItem>();
-            dtLoadDropdownvalues = bll.GetDropDownValues("brand_name", "brand_id", "brands", "product_id = " + prid + "", SessionMgr.DBName);
+           
+
+            if (string.IsNullOrEmpty(prid) || prid == "Please Select")
+            {
+                return ListItems; // return empty list, do NOT allow
+            }
+
+            int productId;
+            if (!Int32.TryParse(prid, out productId))
+            {
+                return ListItems; // return empty list if invalid number
+            }
+            dtLoadDropdownvalues = bll.GetDropDownValues("brand_name", "brand_id", "brands", "product_id = " + productId + "", SessionMgr.DBName);
             foreach (DataRow drRow in dtLoadDropdownvalues.Rows)
             {
                 ListItems.Add(new ListItem
@@ -1124,7 +1329,18 @@ namespace TCC_CRM.Transactions
             DataTable dtLoadDropdownvalues = new DataTable();
             BLLTicket bll = new BLLTicket();
             List<ListItem> ListItems = new List<ListItem>();
-            dtLoadDropdownvalues = bll.GetDropDownValues("model_name", "model_id", "models", "Brand_ID = " + bid + " and product_id=" + prid + "", SessionMgr.DBName);
+            if (string.IsNullOrEmpty(bid) || bid == "Please Select" || string.IsNullOrEmpty(prid) || prid == "Please Select")
+            {
+                return ListItems; // return empty list, do NOT allow
+            }
+
+            int brandId, productId;
+
+            if (!Int32.TryParse(bid, out brandId) || !Int32.TryParse(prid, out productId))
+            {
+                return ListItems; // return empty list if invalid number(s)
+            }
+            dtLoadDropdownvalues = bll.GetDropDownValues("model_name", "model_id", "models", "Brand_ID = " + brandId + " and product_id=" + productId + "", SessionMgr.DBName);
             foreach (DataRow drRow in dtLoadDropdownvalues.Rows)
             {
                 ListItems.Add(new ListItem

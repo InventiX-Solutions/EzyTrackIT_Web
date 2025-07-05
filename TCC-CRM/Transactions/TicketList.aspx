@@ -6,10 +6,25 @@
 
     <script type="text/javascript">
 
+        //function OnMoreInfoPOClick(s, e) {
+
+        //    window.location.href = "Tickets.aspx?TicketID=" + e + "&id=1";
+
+        //}
+
         function OnMoreInfoPOClick(s, e) {
+            // Get statusid from the current page URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const statusid = urlParams.get("statusid");
 
-            window.location.href = "Tickets.aspx?TicketID=" + e + "&id=1";
+            // Build the new URL
+            let newUrl = "Tickets.aspx?TicketID=" + e + "&id=1";
+            if (statusid) {
+                newUrl += "&statusid=" + statusid;
+            }
 
+            // Redirect
+            window.location.href = newUrl;
         }
 
 
@@ -222,6 +237,7 @@ body {
                 </div>
                 <div class="card-body" style="padding: 22px;">
                   <%--  <div class="form-group row p-t-20">--%>
+<div id="filterPanel" runat= "server" class="col-lg-12 mb-1">
               <div class="container py-5">
   <!-- For Demo Purpose-->
   <div class="py-5">
@@ -336,7 +352,7 @@ body {
     </div>
   </div>
 </div>
-
+</div>
 
                <%-- </div>--%>
                 <div class="table-responsive m-t-1 p-t-10" style="overflow-y: scroll; overflow-x: scroll; width: 100%; min-height: 150px; max-height: 450px">

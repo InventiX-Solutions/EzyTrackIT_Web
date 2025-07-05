@@ -27,6 +27,7 @@ namespace TCC_CRM.Transactions
 
             if (!string.IsNullOrEmpty(SessionMgr.DBName))
             {
+                string statusIDStr = Request.QueryString["statusid"];
 
                 if (!IsPostBack)
                 {
@@ -35,19 +36,88 @@ namespace TCC_CRM.Transactions
 
                     orderfromdt.Value = dtFrom;
                     ordertodt.Value = dtTO;
-                    
-              
-              //  LoadstatusValues();
-                LoadDefaultValues();
+                    //string dashboardstatus = Request.QueryString["status"];
+                    //int status = Convert.ToInt32(dashboardstatus);
+                    //if (status !=0 )
+                    //{
+                    //   // lblStatusTitle.Text = "Showing Tickets with Status: " + status;
+                    //    LoadTicketsByStatus(status);
+                    //}
+                    //if (!string.IsNullOrEmpty(statusIDStr))
+                    //{
+                    //    // Hide filter if coming from dashboard
+                    //    filterPanel.Visible = false;
+                    //}
+                    //else
+                    //{
+                    //    filterPanel.Visible = true;
+                    //}
+                    //if (!string.IsNullOrEmpty(statusIDStr) && int.TryParse(statusIDStr, out int statusID))
+                    //{
+                    //    Session["DashboardStatusID"] = statusID;
+                    //    LoadTicketsByStatus(statusID);
+                    //}
+                    //else
+                    //{
+                    //    Session["DashboardStatusID"] = null;
+                    //    getTicketlist(); // fallback if no status ID provided
+                    //}
+                    //  LoadstatusValues();
+                    LoadDefaultValues();
                 }
-               getTicketlist();
+                if (!string.IsNullOrEmpty(statusIDStr))
+                {
+                    // Hide filter if coming from dashboard
+                    filterPanel.Visible = false;
+                }
+                else
+                {
+                    filterPanel.Visible = true;
+                }
+                if (!string.IsNullOrEmpty(statusIDStr) && int.TryParse(statusIDStr, out int statusID))
+                {
+                    Session["DashboardStatusID"] = statusID;
+                    LoadTicketsByStatus(statusID);
+                }
+                else
+                {
+                    Session["DashboardStatusID"] = null;
+                    getTicketlist(); // fallback if no status ID provided
+                }
+                // statusIDStr = Request.QueryString["statusid"];
+                //if (!string.IsNullOrEmpty(statusIDStr) && int.TryParse(statusIDStr, out int statusID))
+                //{
+                //    LoadTicketsByStatus(statusID);
+                //}
+                //else
+                //{
+                //    getTicketlist(); // fallback if no status ID provided
+                //}
+                //getTicketlist();
             }
+
             else
             {
                 Response.Redirect("~/Login.aspx");
             }
 
         }
+
+        private void LoadTicketsByStatus(int status)
+        {
+            DataTable dt = new DataTable();
+            //dt = bllTicket.GetTicketList(OrderFromDT, OrderToDT, stat, SessionMgr.DBName);
+          //  dt = bllTicket.GetTicketList(status, SessionMgr.DBName);
+            dt = bllTicket.GetstatusTicketList( status, SessionMgr.DBName);
+            dt.Columns[1].ColumnName = "TicketNo";
+            dt.Columns[2].ColumnName = "Date";
+            //dt.Columns[3].ColumnName = "Customer Name";
+            dt.AcceptChanges();
+            ASPxGridView1.DataSource = dt;
+            ASPxGridView1.DataBind();
+
+        }
+
 
         private void LoadDefaultValues()
         {
@@ -82,7 +152,11 @@ namespace TCC_CRM.Transactions
             }
 
         }
-        private void DerializeproductDataTable()
+
+
+      
+
+            private void DerializeproductDataTable()
         {
             try
             {

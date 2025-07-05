@@ -31,8 +31,9 @@ namespace TCC_CRM
                 {
                     if (ValidateUser())
                     {
-                       // Response.Redirect("~/Transactions/Dashboard.aspx", false);
-                        Response.Redirect("~/Transactions/TicketList.aspx", false);
+                        // Response.Redirect("~/Transactions/Dashboard.aspx", false);
+                        // Response.Redirect("~/Transactions/TicketList.aspx", false);
+                        Response.Redirect("~/Transactions/StatusDashboard.aspx", false);
                     }
                 }
                 else

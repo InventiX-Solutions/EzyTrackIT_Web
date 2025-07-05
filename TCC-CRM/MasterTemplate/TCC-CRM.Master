@@ -486,6 +486,7 @@
                                 <li id="dashboard" runat="server">
                                     <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Dashboard </span></a>
                                     <ul aria-expanded="false" class="collapse">
+                                           <li><a href="../Transactions/StatusDashboard.aspx"><i class="fa fa-ticket"></i><span>&nbsp;</span>Job Status Analysis</a></li>
                                         <li><a href="../Transactions/Dashboard.aspx"><i class="fa fa-ticket"></i><span>&nbsp;</span>Product Analysis</a></li>
                                         <li><a href="../Transactions/CustomerDashboard.aspx"><i class="fa fa-ticket"></i><span>&nbsp;</span>Customer Analysis</a></li>
                                         <li><a href="../Transactions/EngineerDashboard.aspx"><i class="fa fa-ticket"></i><span>&nbsp;</span>Engineer Analysis</a></li>
