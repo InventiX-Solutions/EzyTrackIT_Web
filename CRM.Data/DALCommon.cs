@@ -62,6 +62,158 @@ namespace CRM.Data
             return dsResult.Tables[0];
         }
 
+        public DataTable GetStatusDashboardData(string dbname)//added for dynamic in dashboard
+        {
+            DataTable dtResult = new DataTable();
+            string sqlStr = string.Empty;
+            // sqlStr += "select StatusName as ColumnValue,SequenceNo from Status where active='1' order by sequenceNo Asc";
+            //sqlStr += @"SELECT B.StatusID, B.StatusName, COUNT(A.TicketID) AS JobCount
+            //             FROM status B
+            //             LEFT JOIN Tickets A ON A.StatusID = B.StatusID AND A.CompanyID = B.CompanyID
+            //             WHERE B.Active = 1
+            //             GROUP BY B.StatusID, B.StatusName
+            //             ORDER BY B.sequenceNo";
+
+
+            //sqlStr += @"SELECT
+            //    st.StatusID, 
+            //    st.StatusName, 
+            //    COUNT(t.TicketID) AS JobCount
+            //FROM
+            //    status st
+            //LEFT JOIN Tickets t ON st.StatusID = t.StatusID AND st.CompanyID = t.CompanyID
+            //LEFT JOIN customerbranch c ON t.BranchID = c.customer_branch_id
+            //LEFT JOIN brands b ON t.brand_id = b.brand_id
+            //LEFT JOIN models m ON t.model_id = m.model_id
+            //LEFT JOIN products p ON t.product_id = p.product_id
+            //LEFT JOIN service_type s ON t.ServiceTypeID = s.service_typeid
+            //LEFT JOIN problems pb ON t.ProblemID = pb.problem_id
+            //-- If you need customer and company info, join them explicitly
+            // LEFT JOIN customers z ON z.customer_ID = c.customer_id
+            // LEFT JOIN company cy ON t.CompanyID = cy.CompanyID
+            //WHERE
+            //    st.Active = 1 AND
+            //    (t.TicketID IS NULL OR(t.Active = 1 AND c.Active = 1 AND b.Active = 1 AND m.Active = 1 AND p.Active = 1 AND s.Active = 1 AND pb.Active = 1))
+            //GROUP BY
+            //    st.StatusID, st.StatusName
+            // ORDER BY st.sequenceNo";
+
+
+            //            sqlStr += @" SELECT StatusID, StatusName, JobCount, SortOrder FROM
+            //(
+            //    --Status counts with sequenceNo as SortOrder
+            //    SELECT
+            //        st.StatusID,
+            //        st.StatusName,
+            //        COUNT(t.TicketID) AS JobCount,
+            //        st.sequenceNo AS SortOrder
+            //    FROM
+            //        status st
+            //    LEFT JOIN Tickets t ON st.StatusID = t.StatusID AND st.CompanyID = t.CompanyID
+            //    LEFT JOIN customerbranch c ON t.BranchID = c.customer_branch_id
+            //    LEFT JOIN brands b ON t.brand_id = b.brand_id
+            //    LEFT JOIN models m ON t.model_id = m.model_id
+            //    LEFT JOIN products p ON t.product_id = p.product_id
+            //    LEFT JOIN service_type s ON t.ServiceTypeID = s.service_typeid
+            //    LEFT JOIN problems pb ON t.ProblemID = pb.problem_id
+            //    LEFT JOIN customers z ON z.customer_ID = c.customer_id
+            //    LEFT JOIN company cy ON t.CompanyID = cy.CompanyID
+            //    WHERE
+            //        st.Active = 1 AND
+            //        (t.TicketID IS NULL OR(t.Active = 1 AND c.Active = 1 AND b.Active = 1 AND m.Active = 1 AND p.Active = 1 AND s.Active = 1 AND pb.Active = 1))
+            //    GROUP BY
+            //        st.StatusID, st.StatusName, st.sequenceNo
+
+            //    UNION ALL
+
+            //    -- Total open jobs last, with high SortOrder
+            //    SELECT
+            //        NULL AS StatusID,
+            //        'TOTAL NO. OF OPEN JOBS' AS StatusName,
+            //        COUNT(t.TicketID) AS JobCount,
+            //        9999 AS SortOrder
+            //    FROM Tickets t
+            //    JOIN status st ON t.StatusID = st.StatusID AND st.CompanyID = t.CompanyID
+            //    JOIN customerbranch c ON t.BranchID = c.customer_branch_id
+            //    JOIN brands b ON t.brand_id = b.brand_id
+            //    JOIN models m ON t.model_id = m.model_id
+            //    JOIN products p ON t.product_id = p.product_id
+            //    JOIN service_type s ON t.ServiceTypeID = s.service_typeid
+            //    JOIN problems pb ON t.ProblemID = pb.problem_id
+            //    JOIN customers z ON z.customer_ID = c.customer_id
+            //    JOIN company cy ON t.CompanyID = cy.CompanyID
+            //    WHERE
+            //        st.Active = 1
+            //        AND st.StatusName NOT LIKE '%Closed%'
+            //        AND t.Active = 1
+            //        AND c.Active = 1
+            //        AND b.Active = 1
+            //        AND m.Active = 1
+            //        AND p.Active = 1
+            //        AND s.Active = 1
+            //        AND pb.Active = 1
+            //) AS CombinedResults
+            //ORDER BY SortOrder, StatusName";
+            sqlStr += @"
+            SELECT StatusID, StatusName, JobCount, SortOrder
+            FROM (
+
+            SELECT
+                    st.StatusID,
+                    st.StatusName,
+                    COUNT(t.TicketID) AS JobCount,
+                    st.sequenceNo AS SortOrder
+                FROM status st
+                LEFT JOIN Tickets t ON st.StatusID = t.StatusID AND st.CompanyID = t.CompanyID
+                LEFT JOIN customerbranch c ON t.BranchID = c.customer_branch_id AND c.Active = 1
+                LEFT JOIN brands b ON t.brand_id = b.brand_id AND b.Active = 1
+                LEFT JOIN models m ON t.model_id = m.model_id AND m.Active = 1
+                LEFT JOIN products p ON t.product_id = p.product_id AND p.Active = 1
+                LEFT JOIN service_type s ON t.ServiceTypeID = s.service_typeid AND s.Active = 1
+                LEFT JOIN problems pb ON t.ProblemID = pb.problem_id AND pb.Active = 1
+                LEFT JOIN customers z ON z.customer_ID = c.customer_id
+                LEFT JOIN company cy ON t.CompanyID = cy.CompanyID
+                WHERE
+                    st.Active = 1
+                    AND(t.TicketID IS NULL OR(
+                        t.Active = 1
+                        AND c.Active = 1 AND b.Active = 1 AND m.Active = 1 AND
+                        p.Active = 1 AND s.Active = 1 AND pb.Active = 1
+                    ))
+                GROUP BY st.StatusID, st.StatusName, st.sequenceNo
+                UNION ALL
+                SELECT
+                    NULL AS StatusID,
+                    'TOTAL NO. OF OPEN JOBS' AS StatusName,
+                    COUNT(*) AS JobCount,
+                    9999 AS SortOrder
+                FROM Tickets t
+                INNER JOIN status st ON t.StatusID = st.StatusID AND st.CompanyID = t.CompanyID
+                INNER JOIN customerbranch c ON t.BranchID = c.customer_branch_id AND c.Active = 1
+                INNER JOIN brands b ON t.brand_id = b.brand_id AND b.Active = 1
+                INNER JOIN models m ON t.model_id = m.model_id AND m.Active = 1
+                INNER JOIN products p ON t.product_id = p.product_id AND p.Active = 1
+                INNER JOIN service_type s ON t.ServiceTypeID = s.service_typeid AND s.Active = 1
+                INNER JOIN problems pb ON t.ProblemID = pb.problem_id AND pb.Active = 1
+                INNER JOIN customers z ON z.customer_ID = c.customer_id
+                INNER JOIN company cy ON t.CompanyID = cy.CompanyID
+                WHERE
+                    st.Active = 1
+                    AND st.StatusName NOT LIKE '%Closed%'
+                    AND t.Active = 1
+                    AND c.Active = 1
+                    AND b.Active = 1
+                    AND m.Active = 1
+                    AND p.Active = 1
+                    AND s.Active = 1
+                    AND pb.Active = 1
+            ) AS CombinedResults
+            ORDER BY SortOrder, StatusName;
+            ";
+
+            DataTable dsResult = RunQrysOnly(sqlStr, dbname);
+            return dsResult;
+        }
         public DataTable GetExpectedStatusValuesAsDataTable(string dbname)//added for dynamic in dashboard
         {
             DataTable dtResult = new DataTable();

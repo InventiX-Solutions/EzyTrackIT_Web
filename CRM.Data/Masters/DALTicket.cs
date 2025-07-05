@@ -248,235 +248,305 @@ namespace CRM.Data.Masters
         }
 
 
-//        public DataTable GetTicketListExcel(string fromdate, string todate, int? status, int? customer, int? Branch, int? Product, int? Brand, int? Model, int? Problem, int? Engineer, int? Jobtype, string dbname)
-//        {
-//            string strSql = string.Empty;
+        public DataTable GetstatusTicketList( int? status, string dbname)
+        {
+            string strSql = string.Empty;
 
-//            strSql = @"SELECT DISTINCT t.TicketID,t.TicketNo,t.CreatedDT AS tktdate,IFNULL(jb.JobTypes,'NA') AS JobTypes, z.customer_Name,zx.customer_branch_Name,b.brand_name, m.model_name,t.Remarks,p.product_name,
-//    s.service_type_name,pb.problem_name,IFNULL(eg.engineer_code,'NA') AS engineer_code,st.StatusName AS CurrentStatus,t.tothrs_spent AS tothrs,eg.engineer_id,
-//    cy.CompanyCode,t.SerialNumber,t.NameOfCaller,t.Call_Detail_Nature,IFNULL(t.Receipt_amt,0.00) AS Receipt_amt,t.invoice_amt,t.ReportDt,t.CallRecivedAt,
-//    t.PartNo,IFNULL(eg.engineer_name,'NA') AS engineer_name,CONCAT(t.invoice_no,' / ',DATE_FORMAT(STR_TO_DATE(t.invoice_dt, '%Y-%m-%d'),'%d-%m-%Y')) AS Invoice ,
-//       ts.status_id,ts.engineer_id ,(ts.endtime) as endtime,
-//       st.StatusName as StatusName
-//    FROM customerbranch c, brands b,models m,products p,service_type s,problems pb,Status st, tickets t 
-//    LEFT JOIN Engineers eg ON t.Assigned_to = eg.engineer_id AND eg.Active = 1 
-//    LEFT JOIN jobtype jb ON t.JobTypeId = jb.JobTypeId, customers z, customerbranch zx, company cy ,
-//	tickets_status ts
-//    WHERE z.customer_ID = c.customer_id AND zx.customer_branch_id = t.BranchID 
-//    AND t.CustomerID = c.customer_id AND t.brand_id = b.brand_id AND t.model_id = m.model_id AND t.product_id = p.product_id 
-//    AND t.ServiceTypeID = s.service_typeid AND cy.CompanyID = t.CompanyID AND t.ProblemID = pb.problem_id   AND st.StatusID=ts.status_id 
-//         AND t.TicketID = ts.tickets_ID
-//    AND t.Active = 1 AND c.Active = 1 AND b.Active = 1 AND m.Active = 1 AND p.Active = 1 
-//    AND s.Active = 1 AND pb.Active = 1 AND t.StatusID = st.StatusID AND st.Active = 1";
+            strSql = @"SELECT DISTINCT t.TicketID,t.TicketNo,t.CreatedDT AS tktdate,IFNULL(jb.JobTypes,'NA') AS JobTypes, z.customer_Name,zx.customer_branch_Name,b.brand_name, m.model_name,t.Remarks,p.product_name,
+    s.service_type_name,pb.problem_name,IFNULL(eg.engineer_code,'NA') AS engineer_code,st.StatusName AS CurrentStatus,t.tothrs_spent AS tothrs,eg.engineer_id,
+    cy.CompanyCode,t.SerialNumber,t.NameOfCaller,t.Call_Detail_Nature,IFNULL(t.Receipt_amt,0.00) AS Receipt_amt,t.invoice_amt,t.ReportDt,t.CallRecivedAt,
+    t.PartNo,IFNULL(eg.engineer_name,'NA') AS engineer_name,CONCAT(t.invoice_no,' / ',DATE_FORMAT(STR_TO_DATE(t.invoice_dt, '%Y-%m-%d'),'%d-%m-%Y')) AS Invoice 
+    FROM customerbranch c, brands b,models m,products p,service_type s,problems pb,Status st, tickets t 
+    LEFT JOIN Engineers eg ON t.Assigned_to = eg.engineer_id AND eg.Active = 1 
+    LEFT JOIN jobtype jb ON t.JobTypeId = jb.JobTypeId, customers z, customerbranch zx, company cy 
+    WHERE z.customer_ID = c.customer_id AND zx.customer_branch_id = t.BranchID 
+    AND t.CustomerID = c.customer_id AND t.brand_id = b.brand_id AND t.model_id = m.model_id AND t.product_id = p.product_id 
+    AND t.ServiceTypeID = s.service_typeid AND cy.CompanyID = t.CompanyID AND t.ProblemID = pb.problem_id 
+    AND t.Active = 1 AND c.Active = 1 AND b.Active = 1 AND m.Active = 1 AND p.Active = 1 
+    AND s.Active = 1 AND pb.Active = 1 AND t.StatusID = st.StatusID AND st.Active = 1";
 
-//            if (!string.IsNullOrEmpty(fromdate) && !string.IsNullOrEmpty(todate))
-//            {
-//                strSql += " AND date(t.CreatedDT) BETWEEN '" + fromdate + "' AND '" + todate + "'";
-//            }
+            //if (!string.IsNullOrEmpty(fromdate) && !string.IsNullOrEmpty(todate))
+            //{
+            //    strSql += " AND date(t.CreatedDT) BETWEEN '" + fromdate + "' AND '" + todate + "'";
+            //}
 
-//            string actstat = string.Empty;
-//            if (status != 0)
-//            {
-//                actstat += " AND t.StatusID = '" + status + "'";
-//            }
+            string actstat = string.Empty;
+            if (status != 0)
+            {
+                actstat += " AND t.StatusID = '" + status + "'";
+            }
 
-//            if (customer != 0)
-//            {
-//                actstat += " AND t.CustomerID = '" + customer + "'";
-//            }
-//            if (Branch != 0)
-//            {
-//                actstat += " AND t.BranchID = '" + Branch + "'";
-//            }
-//            if (Product != 0)
-//            {
-//                actstat += " AND t.product_id = '" + Product + "'";
-//            }
-//            if (Model != 0)
-//            {
-//                actstat += " AND t.model_id = '" + Model + "'";
-//            }
-//            if (Brand != 0)
-//            {
-//                actstat += " AND t.brand_id = '" + Brand + "'";
-//            }
-//            if (Problem != 0)
-//            {
-//                actstat += " AND t.ProblemID = '" + Problem + "'";
-//            }
-//            if (Engineer != 0)
-//            {
-//                actstat += " AND t.Assigned_to = '" + Engineer + "'";
-//            }
-//            if (Jobtype != 0)
-//            {
-//                actstat += " AND t.JobtypeID = '" + Jobtype + "'";
-//            }
+            //if (customer != 0)
+            //{
+            //    actstat += " AND t.CustomerID = '" + customer + "'";
+            //}
+            //if (Branch != 0)
+            //{
+            //    actstat += " AND t.BranchID = '" + Branch + "'";
+            //}
+            //if (Product != 0)
+            //{
+            //    actstat += " AND t.product_id = '" + Product + "'";
+            //}
+            //if (Model != 0)
+            //{
+            //    actstat += " AND t.model_id = '" + Model + "'";
+            //}
+            //if (Brand != 0)
+            //{
+            //    actstat += " AND t.brand_id = '" + Brand + "'";
+            //}
+            //if (Problem != 0)
+            //{
+            //    actstat += " AND t.ProblemID = '" + Problem + "'";
+            //}
+            //if (Engineer != 0)
+            //{
+            //    actstat += " AND t.Assigned_to = '" + Engineer + "'";
+            //}
+            //if (Jobtype != 0)
+            //{
+            //    actstat += " AND t.JobtypeID = '" + Jobtype + "'";
+            //}
 
-//            strSql += actstat;
-//            MySqlParameter[] parameters = { new MySqlParameter("@CompanyID", MySqlDbType.Int64) };
-//            parameters[0].Value = 1;
-//            DataSet dsResult = RunSQLWithParam(strSql, dbname, parameters, "MyDataTable");
-//            // DataSet dsResult = RunSQLWithParam(strSql, dbname, null, "MyDataTable");
-//            return dsResult.Tables[0];
-//        }
+            strSql += actstat;
+            MySqlParameter[] parameters = { new MySqlParameter("@CompanyID", MySqlDbType.Int64) };
+            parameters[0].Value = 1;
+            DataSet dsResult = RunSQLWithParam(strSql, dbname, parameters, "MyDataTable");
+            // DataSet dsResult = RunSQLWithParam(strSql, dbname, null, "MyDataTable");
+            return dsResult.Tables[0];
+        }
+
+
+        //        public DataTable GetTicketListExcel(string fromdate, string todate, int? status, int? customer, int? Branch, int? Product, int? Brand, int? Model, int? Problem, int? Engineer, int? Jobtype, string dbname)
+        //        {
+        //            string strSql = string.Empty;
+
+        //            strSql = @"SELECT DISTINCT t.TicketID,t.TicketNo,t.CreatedDT AS tktdate,IFNULL(jb.JobTypes,'NA') AS JobTypes, z.customer_Name,zx.customer_branch_Name,b.brand_name, m.model_name,t.Remarks,p.product_name,
+        //    s.service_type_name,pb.problem_name,IFNULL(eg.engineer_code,'NA') AS engineer_code,st.StatusName AS CurrentStatus,t.tothrs_spent AS tothrs,eg.engineer_id,
+        //    cy.CompanyCode,t.SerialNumber,t.NameOfCaller,t.Call_Detail_Nature,IFNULL(t.Receipt_amt,0.00) AS Receipt_amt,t.invoice_amt,t.ReportDt,t.CallRecivedAt,
+        //    t.PartNo,IFNULL(eg.engineer_name,'NA') AS engineer_name,CONCAT(t.invoice_no,' / ',DATE_FORMAT(STR_TO_DATE(t.invoice_dt, '%Y-%m-%d'),'%d-%m-%Y')) AS Invoice ,
+        //       ts.status_id,ts.engineer_id ,(ts.endtime) as endtime,
+        //       st.StatusName as StatusName
+        //    FROM customerbranch c, brands b,models m,products p,service_type s,problems pb,Status st, tickets t 
+        //    LEFT JOIN Engineers eg ON t.Assigned_to = eg.engineer_id AND eg.Active = 1 
+        //    LEFT JOIN jobtype jb ON t.JobTypeId = jb.JobTypeId, customers z, customerbranch zx, company cy ,
+        //	tickets_status ts
+        //    WHERE z.customer_ID = c.customer_id AND zx.customer_branch_id = t.BranchID 
+        //    AND t.CustomerID = c.customer_id AND t.brand_id = b.brand_id AND t.model_id = m.model_id AND t.product_id = p.product_id 
+        //    AND t.ServiceTypeID = s.service_typeid AND cy.CompanyID = t.CompanyID AND t.ProblemID = pb.problem_id   AND st.StatusID=ts.status_id 
+        //         AND t.TicketID = ts.tickets_ID
+        //    AND t.Active = 1 AND c.Active = 1 AND b.Active = 1 AND m.Active = 1 AND p.Active = 1 
+        //    AND s.Active = 1 AND pb.Active = 1 AND t.StatusID = st.StatusID AND st.Active = 1";
+
+        //            if (!string.IsNullOrEmpty(fromdate) && !string.IsNullOrEmpty(todate))
+        //            {
+        //                strSql += " AND date(t.CreatedDT) BETWEEN '" + fromdate + "' AND '" + todate + "'";
+        //            }
+
+        //            string actstat = string.Empty;
+        //            if (status != 0)
+        //            {
+        //                actstat += " AND t.StatusID = '" + status + "'";
+        //            }
+
+        //            if (customer != 0)
+        //            {
+        //                actstat += " AND t.CustomerID = '" + customer + "'";
+        //            }
+        //            if (Branch != 0)
+        //            {
+        //                actstat += " AND t.BranchID = '" + Branch + "'";
+        //            }
+        //            if (Product != 0)
+        //            {
+        //                actstat += " AND t.product_id = '" + Product + "'";
+        //            }
+        //            if (Model != 0)
+        //            {
+        //                actstat += " AND t.model_id = '" + Model + "'";
+        //            }
+        //            if (Brand != 0)
+        //            {
+        //                actstat += " AND t.brand_id = '" + Brand + "'";
+        //            }
+        //            if (Problem != 0)
+        //            {
+        //                actstat += " AND t.ProblemID = '" + Problem + "'";
+        //            }
+        //            if (Engineer != 0)
+        //            {
+        //                actstat += " AND t.Assigned_to = '" + Engineer + "'";
+        //            }
+        //            if (Jobtype != 0)
+        //            {
+        //                actstat += " AND t.JobtypeID = '" + Jobtype + "'";
+        //            }
+
+        //            strSql += actstat;
+        //            MySqlParameter[] parameters = { new MySqlParameter("@CompanyID", MySqlDbType.Int64) };
+        //            parameters[0].Value = 1;
+        //            DataSet dsResult = RunSQLWithParam(strSql, dbname, parameters, "MyDataTable");
+        //            // DataSet dsResult = RunSQLWithParam(strSql, dbname, null, "MyDataTable");
+        //            return dsResult.Tables[0];
+        //        }
         //above working
 
-//        public DataTable GetTicketListExcel(string fromdate, string todate, int? status, int? customer, int? Branch, int? Product, int? Brand, int? Model, int? Problem, int? Engineer, int? Jobtype, string dbname)
-//        {
-//            string strSql = @"
-//        SET SESSION group_concat_max_len = 1000000;
-//        SELECT 
-//            GROUP_CONCAT(DISTINCT
-//                CONCAT(
-//                    'MAX(CASE WHEN StatusName = ''',
-//                    StatusName,
-//                    ''' THEN endtime END) AS `',
-//                    REPLACE(StatusName, ' ', '_'),
-//                    '`'
-//                )
-//            ) INTO @pivot_query
-//        FROM 
-//            (
-//                SELECT DISTINCT
-//                    st.StatusName
-//                FROM 
-//                    Status st
-//            ) AS subquery;
-//
-//        SET @query = CONCAT('
-//            SELECT 
-//                t.TicketID,
-//                t.TicketNo,
-//                t.CreatedDT AS Date,
-//                IFNULL(jb.JobTypes, ""NA"") AS JobTypes,
-//                z.customer_Name,
-//                zx.customer_branch_Name,
-//                b.brand_name,
-//                m.model_name,
-//                t.Remarks,
-//                p.product_name,
-//                s.service_type_name,
-//                pb.problem_name,
-//                IFNULL(eg.engineer_code, ""NA"") AS engineer_code,
-//                t.tothrs_spent AS tothrs,
-//                IFNULL(eg.engineer_id, 0) AS engineer_id,
-//                cy.CompanyCode,
-//                t.SerialNumber,
-//                t.NameOfCaller,
-//                t.Call_Detail_Nature,
-//                IFNULL(t.Receipt_amt, 0.00) AS Receipt_amt,
-//                t.invoice_amt,
-//                t.ReportDt,
-//                t.CallRecivedAt,
-//                t.PartNo,
-//                IFNULL(eg.engineer_name, ""NA"") AS engineer_name,
-//                CONCAT(t.invoice_no, ' / ', DATE_FORMAT(STR_TO_DATE(t.invoice_dt, ""%Y-%m-%d""), ""%d-%m-%Y"")) AS Invoice,
-//                ts.status_id,
-//                ts.engineer_id AS engineer_id1,
-//                ', @pivot_query, '
-//            FROM 
-//                customerbranch c,
-//                brands b,
-//                models m,
-//                products p,
-//                service_type s,
-//                problems pb,
-//                Status st,
-//                tickets t
-//            LEFT JOIN 
-//                Engineers eg ON t.Assigned_to = eg.engineer_id AND eg.Active = 1
-//            LEFT JOIN 
-//                jobtype jb ON t.JobTypeId = jb.JobTypeId,
-//                customers z,
-//                customerbranch zx,
-//                company cy,
-//                tickets_status ts
-//            WHERE 
-//                z.customer_ID = c.customer_id
-//                AND zx.customer_branch_id = t.BranchID
-//                AND t.CustomerID = c.customer_id
-//                AND t.brand_id = b.brand_id
-//                AND t.model_id = m.model_id
-//                AND t.product_id = p.product_id
-//                AND t.ServiceTypeID = s.service_typeid
-//                AND cy.CompanyID = t.CompanyID
-//                AND t.ProblemID = pb.problem_id
-//                AND st.StatusID = ts.status_id
-//                AND t.TicketID = ts.tickets_ID
-//                AND t.Active = 1
-//                AND c.Active = 1
-//                AND b.Active = 1
-//                AND m.Active = 1
-//                AND p.Active = 1
-//                AND s.Active = 1
-//                AND pb.Active = 1
-//                AND t.StatusID = st.StatusID
-//                AND st.Active = 1
-//    ";
+        //        public DataTable GetTicketListExcel(string fromdate, string todate, int? status, int? customer, int? Branch, int? Product, int? Brand, int? Model, int? Problem, int? Engineer, int? Jobtype, string dbname)
+        //        {
+        //            string strSql = @"
+        //        SET SESSION group_concat_max_len = 1000000;
+        //        SELECT 
+        //            GROUP_CONCAT(DISTINCT
+        //                CONCAT(
+        //                    'MAX(CASE WHEN StatusName = ''',
+        //                    StatusName,
+        //                    ''' THEN endtime END) AS `',
+        //                    REPLACE(StatusName, ' ', '_'),
+        //                    '`'
+        //                )
+        //            ) INTO @pivot_query
+        //        FROM 
+        //            (
+        //                SELECT DISTINCT
+        //                    st.StatusName
+        //                FROM 
+        //                    Status st
+        //            ) AS subquery;
+        //
+        //        SET @query = CONCAT('
+        //            SELECT 
+        //                t.TicketID,
+        //                t.TicketNo,
+        //                t.CreatedDT AS Date,
+        //                IFNULL(jb.JobTypes, ""NA"") AS JobTypes,
+        //                z.customer_Name,
+        //                zx.customer_branch_Name,
+        //                b.brand_name,
+        //                m.model_name,
+        //                t.Remarks,
+        //                p.product_name,
+        //                s.service_type_name,
+        //                pb.problem_name,
+        //                IFNULL(eg.engineer_code, ""NA"") AS engineer_code,
+        //                t.tothrs_spent AS tothrs,
+        //                IFNULL(eg.engineer_id, 0) AS engineer_id,
+        //                cy.CompanyCode,
+        //                t.SerialNumber,
+        //                t.NameOfCaller,
+        //                t.Call_Detail_Nature,
+        //                IFNULL(t.Receipt_amt, 0.00) AS Receipt_amt,
+        //                t.invoice_amt,
+        //                t.ReportDt,
+        //                t.CallRecivedAt,
+        //                t.PartNo,
+        //                IFNULL(eg.engineer_name, ""NA"") AS engineer_name,
+        //                CONCAT(t.invoice_no, ' / ', DATE_FORMAT(STR_TO_DATE(t.invoice_dt, ""%Y-%m-%d""), ""%d-%m-%Y"")) AS Invoice,
+        //                ts.status_id,
+        //                ts.engineer_id AS engineer_id1,
+        //                ', @pivot_query, '
+        //            FROM 
+        //                customerbranch c,
+        //                brands b,
+        //                models m,
+        //                products p,
+        //                service_type s,
+        //                problems pb,
+        //                Status st,
+        //                tickets t
+        //            LEFT JOIN 
+        //                Engineers eg ON t.Assigned_to = eg.engineer_id AND eg.Active = 1
+        //            LEFT JOIN 
+        //                jobtype jb ON t.JobTypeId = jb.JobTypeId,
+        //                customers z,
+        //                customerbranch zx,
+        //                company cy,
+        //                tickets_status ts
+        //            WHERE 
+        //                z.customer_ID = c.customer_id
+        //                AND zx.customer_branch_id = t.BranchID
+        //                AND t.CustomerID = c.customer_id
+        //                AND t.brand_id = b.brand_id
+        //                AND t.model_id = m.model_id
+        //                AND t.product_id = p.product_id
+        //                AND t.ServiceTypeID = s.service_typeid
+        //                AND cy.CompanyID = t.CompanyID
+        //                AND t.ProblemID = pb.problem_id
+        //                AND st.StatusID = ts.status_id
+        //                AND t.TicketID = ts.tickets_ID
+        //                AND t.Active = 1
+        //                AND c.Active = 1
+        //                AND b.Active = 1
+        //                AND m.Active = 1
+        //                AND p.Active = 1
+        //                AND s.Active = 1
+        //                AND pb.Active = 1
+        //                AND t.StatusID = st.StatusID
+        //                AND st.Active = 1
+        //    ";
 
-//            if (!string.IsNullOrEmpty(fromdate) && !string.IsNullOrEmpty(todate))
-//            {
-//                strSql += " AND date(t.CreatedDT) BETWEEN '" + fromdate + "' AND '" + todate + "'";
+        //            if (!string.IsNullOrEmpty(fromdate) && !string.IsNullOrEmpty(todate))
+        //            {
+        //                strSql += " AND date(t.CreatedDT) BETWEEN '" + fromdate + "' AND '" + todate + "'";
 
-//            }
+        //            }
 
-//            string actstat = string.Empty;
-//            if (status != 0)
-//            {
-//                actstat += " AND t.StatusID = '" + status + "'";
-//            }
-//            if (customer != 0)
-//            {
-//                actstat += " AND t.CustomerID = '" + customer + "'";
-//            }
-//            if (Branch != 0)
-//            {
-//                actstat += " AND t.BranchID = '" + Branch + "'";
-//            }
-//            if (Product != 0)
-//            {
-//                actstat += " AND t.product_id = '" + Product + "'";
-//            }
-//            if (Model != 0)
-//            {
-//                actstat += " AND t.model_id = '" + Model + "'";
-//            }
-//            if (Brand != 0)
-//            {
-//                actstat += " AND t.brand_id = '" + Brand + "'";
-//            }
-//            if (Problem != 0)
-//            {
-//                actstat += " AND t.ProblemID = '" + Problem + "'";
-//            }
-//            if (Engineer != 0)
-//            {
-//                actstat += " AND t.Assigned_to = '" + Engineer + "'";
-//            }
-//            if (Jobtype != 0)
-//            {
-//                actstat += " AND t.JobtypeID = '" + Jobtype + "'";
-//            }
+        //            string actstat = string.Empty;
+        //            if (status != 0)
+        //            {
+        //                actstat += " AND t.StatusID = '" + status + "'";
+        //            }
+        //            if (customer != 0)
+        //            {
+        //                actstat += " AND t.CustomerID = '" + customer + "'";
+        //            }
+        //            if (Branch != 0)
+        //            {
+        //                actstat += " AND t.BranchID = '" + Branch + "'";
+        //            }
+        //            if (Product != 0)
+        //            {
+        //                actstat += " AND t.product_id = '" + Product + "'";
+        //            }
+        //            if (Model != 0)
+        //            {
+        //                actstat += " AND t.model_id = '" + Model + "'";
+        //            }
+        //            if (Brand != 0)
+        //            {
+        //                actstat += " AND t.brand_id = '" + Brand + "'";
+        //            }
+        //            if (Problem != 0)
+        //            {
+        //                actstat += " AND t.ProblemID = '" + Problem + "'";
+        //            }
+        //            if (Engineer != 0)
+        //            {
+        //                actstat += " AND t.Assigned_to = '" + Engineer + "'";
+        //            }
+        //            if (Jobtype != 0)
+        //            {
+        //                actstat += " AND t.JobtypeID = '" + Jobtype + "'";
+        //            }
 
-//            strSql += actstat;
+        //            strSql += actstat;
 
-//            strSql += @"
-//            GROUP BY 
-//                t.TicketID
-//        ');
-//
-//        PREPARE stmt FROM @query;
-//        EXECUTE stmt;
-//        DEALLOCATE PREPARE stmt;
-//    ";
+        //            strSql += @"
+        //            GROUP BY 
+        //                t.TicketID
+        //        ');
+        //
+        //        PREPARE stmt FROM @query;
+        //        EXECUTE stmt;
+        //        DEALLOCATE PREPARE stmt;
+        //    ";
 
-//            MySqlParameter[] parameters = { new MySqlParameter("@CompanyID", MySqlDbType.Int64) };
-//            parameters[0].Value = 1;
-//            DataSet dsResult = RunSQLWithParam(strSql, dbname, parameters, "MyDataTable");
-//            // DataSet dsResult = RunSQLWithParam(strSql, dbname, null, "MyDataTable");
-//            return dsResult.Tables[0];
-//        }
+        //            MySqlParameter[] parameters = { new MySqlParameter("@CompanyID", MySqlDbType.Int64) };
+        //            parameters[0].Value = 1;
+        //            DataSet dsResult = RunSQLWithParam(strSql, dbname, parameters, "MyDataTable");
+        //            // DataSet dsResult = RunSQLWithParam(strSql, dbname, null, "MyDataTable");
+        //            return dsResult.Tables[0];
+        //        }
 
         // added for changes in excel
 
