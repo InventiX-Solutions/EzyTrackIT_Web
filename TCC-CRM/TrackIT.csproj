@@ -133,9 +133,8 @@
     <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
     </Reference>
-    <Reference Include="MySql.Data, Version=6.9.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\MySql.Data.dll</HintPath>
+    <Reference Include="MySql.Data, Version=6.9.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.12\lib\net45\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.5.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -3006,7 +3005,6 @@
     <Content Include="Images\orderedList7.png" />
     <Content Include="Images\orderedList8.png" />
     <Content Include="Images\orderedList9.png" />
-    <Content Include="Images\perituslogo.png" />
     <Content Include="Images\premium_helpdesk.jpg" />
     <Content Include="Images\tcchome.jpg" />
     <Content Include="Images\user.jpg" />
@@ -3765,7 +3763,6 @@
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -3776,14 +3773,12 @@
     <Compile Include="ClassModules\SessionMgr.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -3794,210 +3789,180 @@
     <Compile Include="HangfireBootstrapper.cs" />
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Logout.aspx.cs">
       <DependentUpon>Logout.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Logout.aspx.designer.cs">
       <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\BrandList.aspx.cs">
       <DependentUpon>BrandList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\BrandList.aspx.designer.cs">
       <DependentUpon>BrandList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\Company.aspx.cs">
       <DependentUpon>Company.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\Company.aspx.designer.cs">
       <DependentUpon>Company.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\CompanyList.aspx.cs">
       <DependentUpon>CompanyList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\CompanyList.aspx.designer.cs">
       <DependentUpon>CompanyList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\CustomerBranch.aspx.cs">
       <DependentUpon>CustomerBranch.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\CustomerBranch.aspx.designer.cs">
       <DependentUpon>CustomerBranch.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\CustomerBranchList.aspx.cs">
       <DependentUpon>CustomerBranchList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\CustomerBranchList.aspx.designer.cs">
       <DependentUpon>CustomerBranchList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\CustomerList.aspx.cs">
       <DependentUpon>CustomerList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\CustomerList.aspx.designer.cs">
       <DependentUpon>CustomerList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\EngineerSkillLevel.aspx.cs">
       <DependentUpon>EngineerSkillLevel.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\EngineerSkillLevel.aspx.designer.cs">
       <DependentUpon>EngineerSkillLevel.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\EngineersList.aspx.cs">
       <DependentUpon>EngineersList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\EngineersList.aspx.designer.cs">
       <DependentUpon>EngineersList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\ImportCustomerBranch.aspx.cs">
       <DependentUpon>ImportCustomerBranch.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\ImportCustomerBranch.aspx.designer.cs">
       <DependentUpon>ImportCustomerBranch.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\JobType.aspx.cs">
       <DependentUpon>JobType.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\JobType.aspx.designer.cs">
       <DependentUpon>JobType.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\ModelList.aspx.cs">
       <DependentUpon>ModelList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\ModelList.aspx.designer.cs">
       <DependentUpon>ModelList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\NewNotificationTemplate.aspx.cs">
       <DependentUpon>NewNotificationTemplate.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\NewNotificationTemplate.aspx.designer.cs">
       <DependentUpon>NewNotificationTemplate.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\NotificationTemplateList.aspx.cs">
       <DependentUpon>NotificationTemplateList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\NotificationTemplateList.aspx.designer.cs">
       <DependentUpon>NotificationTemplateList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\Priority.aspx.cs">
       <DependentUpon>Priority.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\Priority.aspx.designer.cs">
       <DependentUpon>Priority.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\ProblemList.aspx.cs">
       <DependentUpon>ProblemList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\ProblemList.aspx.designer.cs">
       <DependentUpon>ProblemList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\Product.aspx.cs">
       <DependentUpon>Product.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\Product.aspx.designer.cs">
       <DependentUpon>Product.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\ProductList.aspx.cs">
       <DependentUpon>ProductList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\ProductList.aspx.designer.cs">
       <DependentUpon>ProductList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\ServiceTypeList.aspx.cs">
       <DependentUpon>ServiceTypeList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\ServiceTypeList.aspx.designer.cs">
       <DependentUpon>ServiceTypeList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\severity.aspx.cs">
       <DependentUpon>severity.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\severity.aspx.designer.cs">
       <DependentUpon>severity.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\SkillList.aspx.cs">
       <DependentUpon>SkillList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\SkillList.aspx.designer.cs">
       <DependentUpon>SkillList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\Status.aspx.cs">
       <DependentUpon>Status.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\Status.aspx.designer.cs">
       <DependentUpon>Status.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\StatusList.aspx.cs">
       <DependentUpon>StatusList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\StatusList.aspx.designer.cs">
       <DependentUpon>StatusList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\User.aspx.cs">
       <DependentUpon>User.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\User.aspx.designer.cs">
       <DependentUpon>User.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\UserList.aspx.cs">
       <DependentUpon>UserList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\UserList.aspx.designer.cs">
       <DependentUpon>UserList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\UserRoles.aspx.cs">
       <DependentUpon>UserRoles.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\UserRoles.aspx.designer.cs">
       <DependentUpon>UserRoles.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\VehicleList.aspx.cs">
       <DependentUpon>VehicleList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masters\VehicleList.aspx.designer.cs">
       <DependentUpon>VehicleList.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterTemplate\TCC-CRM.Master.cs">
       <DependentUpon>TCC-CRM.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="MasterTemplate\TCC-CRM.Master.designer.cs">
       <DependentUpon>TCC-CRM.Master</DependentUpon>
@@ -4005,14 +3970,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Session.aspx.cs">
       <DependentUpon>Session.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Session.aspx.designer.cs">
       <DependentUpon>Session.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -4020,105 +3983,90 @@
     <Compile Include="Startup.cs" />
     <Compile Include="Transactions\Attendance.aspx.cs">
       <DependentUpon>Attendance.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Transactions\Attendance.aspx.designer.cs">
       <DependentUpon>Attendance.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transactions\CustomerDashboard.aspx.cs">
       <DependentUpon>CustomerDashboard.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Transactions\CustomerDashboard.aspx.designer.cs">
       <DependentUpon>CustomerDashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transactions\StatusDashboard.aspx.cs">
       <DependentUpon>StatusDashboard.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Transactions\StatusDashboard.aspx.designer.cs">
       <DependentUpon>StatusDashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transactions\Dashboard.aspx.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Transactions\Dashboard.aspx.designer.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transactions\EngineerDashboard.aspx.cs">
       <DependentUpon>EngineerDashboard.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Transactions\EngineerDashboard.aspx.designer.cs">
       <DependentUpon>EngineerDashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transactions\MileageReport.aspx.cs">
       <DependentUpon>MileageReport.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Transactions\MileageReport.aspx.designer.cs">
       <DependentUpon>MileageReport.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transactions\Milestone.aspx.cs">
       <DependentUpon>Milestone.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Transactions\Milestone.aspx.designer.cs">
       <DependentUpon>Milestone.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transactions\TicketList.aspx.cs">
       <DependentUpon>TicketList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Transactions\TicketList.aspx.designer.cs">
       <DependentUpon>TicketList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transactions\TicketPrint.aspx.cs">
       <DependentUpon>TicketPrint.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Transactions\TicketPrint.aspx.designer.cs">
       <DependentUpon>TicketPrint.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transactions\Tickets.aspx.cs">
       <DependentUpon>Tickets.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Transactions\Tickets.aspx.designer.cs">
       <DependentUpon>Tickets.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transactions\TimeAnalysis.aspx.cs">
       <DependentUpon>TimeAnalysis.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Transactions\TimeAnalysis.aspx.designer.cs">
       <DependentUpon>TimeAnalysis.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transactions\TimeandCostAnalysis.aspx.cs">
       <DependentUpon>TimeandCostAnalysis.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Transactions\TimeandCostAnalysis.aspx.designer.cs">
       <DependentUpon>TimeandCostAnalysis.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transactions\Tracking.aspx.cs">
       <DependentUpon>Tracking.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Transactions\Tracking.aspx.designer.cs">
       <DependentUpon>Tracking.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transactions\TrackingMultipleLocation.aspx.cs">
       <DependentUpon>TrackingMultipleLocation.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Transactions\TrackingMultipleLocation.aspx.designer.cs">
       <DependentUpon>TrackingMultipleLocation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transactions\Viewer.aspx.cs">
       <DependentUpon>Viewer.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Transactions\Viewer.aspx.designer.cs">
       <DependentUpon>Viewer.aspx</DependentUpon>
